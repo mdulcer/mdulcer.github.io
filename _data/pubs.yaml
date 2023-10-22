@@ -1,8 +1,8 @@
-- id: autoprofiler
-  title: "Dead or Alive: Continuous Data Profiling for Interactive Data Science"
+- id: reland
+  title: "RELand: Risk Estimation of Landmines via Interpretable Invariant Risk Minimization"
   authors:
-    - Will Epperson
-    - Vaishnavi Gorantla
+    - Mateo Dulce Rubio*
+    - Siqi Zeng*
     - Dominik Moritz
     - Adam Perer
   venue: "VIS 23: IEEE Conference on Data Visualization"
@@ -17,9 +17,9 @@
   code: https://github.com/cmudig/AutoProfiler
   featured: true
   feature-order: 1
-  feature-title: "AutoProfiler"
-  summary: "AutoProfiler is a Jupyter extension that helps data scientists understand their data and find issues during analysis through continuous data profiling."
-  caption: "AutoProfiler is a Jupyter extension that helps data scientists understand their data and find issues during analysis through continuous data profiling."
+  feature-title: "RELand: Risk Estimation of Landmines via Interpretable Invariant Risk Minimization"
+  summary: ""
+  caption: ""
   abstract: |
     Profiling data by plotting distributions and analyzing summary statistics is a critical step throughout data analysis. Currently, this process is 
     manual and tedious since analysts must write extra code to examine their data after every transformation. This inefficiency may lead to data scientists 
@@ -47,7 +47,7 @@
   venue-shorthand: VDS
   location: Melbourne, Australia
   year: 2023
-  type: workshop
+  type: workshop 
   award: Best Paper
   url: /papers/quickdashboard
   pdf: /papers/quickdashboard-vds23.pdf
@@ -169,7 +169,7 @@
   pdf: /papers/ditl-chi22.pdf
   image: /images/papers/ditl-chi22.png
   featured: false
-  feature-order: 3
+  feature-order: 5
   feature-title: Diff in the Loop
   summary: "Diff in the Loop supports tracking, comparing, and visualizing differences in datasets during iterative data analysis."
   caption: |

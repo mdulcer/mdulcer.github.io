@@ -1,6 +1,5 @@
-title: Will Epperson
-tagline: PhD Student at CMU
-url: http://willepperson.com
+title: Mateo Dulce Rubio
+url: http://mdulcer.github.io
 baseurl: ""
 # gems: [jekyll-paginate]
 # paginate: 5
@@ -14,9 +13,9 @@ sass:
   style: compressed
 
 author:
-  name: Will Epperson
-  url: http://willepperson.com
-  email: willepp@cmu.edu
+  name: Mateo Dulce Rubio
+  url: http://mdulcer.github.io
+  email: mdulceru@andrew.cmu.edu
 
 markdown: kramdown
 highlighter: rouge

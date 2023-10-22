@@ -7,10 +7,10 @@
   cv-group: 1
 
 - id: email
-  description: "willepp@cmu.edu"
+  description: "mdulceru [x] andrew.cmu.edu"
   color: "#515151"
   class: "fas fa-envelope icon"
-  url: "mailto:willepp@cmu.edu"
+  url: "mailto:mdulceru@andrew.cmu.edu"
   on-homepage: true
   cv-group: 1
 
@@ -19,7 +19,7 @@
   color: "#1da1f2"
   class: "fab fa-twitter icon"
   url: https://twitter.com/w_epperson
-  on-homepage: true
+  on-homepage: false
   cv-group: 2
 
 - id: github
@@ -27,14 +27,14 @@
   color: "#6e5494"
   class: "fab fa-github icon"
   url: "https://github.com/willeppy"
-  on-homepage: true
+  on-homepage: false
   cv-group: 2
 
 - id: scholar
   description: "Google Scholar"
   color: "#515151"
   class: "fa fa-graduation-cap icon"
-  url: "https://scholar.google.com/citations?user=jgBHxR4AAAAJ&hl=en"
+  url: "https://scholar.google.com/citations?user=4pFEV6YAAAAJ&hl=en"
   on-homepage: true
   cv-group: 2
 
@@ -43,15 +43,15 @@
   color: "#515151"
   class: "fa fa-graduation-cap icon"
   url: " https://www.linkedin.com/in/willepperson/"
-  on-homepage: true
+  on-homepage: false
   cv-group: 2
 
 - id: cv
   description: CV PDF
   color: "#ba2818"
   class: "far fa-file-pdf icon"
-  url: "https://www.willepperson.com/cv.pdf"
-  on-homepage: false
+  url: "https://drive.google.com/open?id=1zfOnsWfQzoTkyO4sk1OtV-kE2hCrLe6l&usp=drive_fs"
+  on-homepage: true
   cv-group: 1
 
 - id: cv-web

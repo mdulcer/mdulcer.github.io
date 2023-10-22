@@ -3,11 +3,11 @@ footer {
     color: $footer-text;
 	padding-bottom: 3rem;
 	padding-top: 3rem;
-	margin-top: 2em;
+	margin-top: 1em;
 }
 
 #footer-left {
-    grid-column: text-start / 8;
+    grid-column: text-start / 20;
 }
 
 #footer-left > time {
