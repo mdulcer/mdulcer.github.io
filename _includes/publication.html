@@ -17,12 +17,13 @@
 
 <br>
 
-{% if pub.summary %}
+<!--{% if pub.summary %}
 <span class="cv-description">
 	{{pub.summary}}
 </span>
 <br/>
 {% endif %}
+-->
 
 <i>{{ pub.venue }}{% if pub.venue-shorthand %} ({{ pub.venue-shorthand }}){% endif %}. {% if pub.location %}{{ pub.location }},{% endif %} {{ pub.year }}.</i>
 
@@ -37,11 +38,11 @@
 	  </a>
 	{% endif %}
 
-	{% if pub.url %}
+	<!--{% if pub.url %}
 	  <a href="{{ pub.url }}">
 	    <i class="fas fa-link" aria-hidden="true"></i> Project
 	  </a>
-	{% endif %}
+	{% endif %}-->
 
 	{% if pub.demo %}
 	<a href="{{ pub.demo }}">
@@ -82,6 +83,12 @@
 	{% if pub.recording %}
 	<a href="{{ pub.recording }}">
 		<i class="fas fa-video" aria-hidden="true"></i> Recording
+	</a>
+	{% endif %}
+
+	{% if pub.presentacion %}
+	<a href="{{ pub.presentacion }}">
+		<i class="fas fa-video" aria-hidden="true"></i> Presentación en español
 	</a>
 	{% endif %}
 

@@ -78,6 +78,12 @@
 					</a>
 					{% endif %}
 
+					{% if feature.presentacion %}
+					<a href="{{ feature.presentacion }}">
+						<i class="fas fa-video" aria-hidden="true"></i> Presentación en español
+					</a>
+					{% endif %}
+
 					{% if feature.preview %}
 					<a href="{{ feature.preview }}">
 						<i class="fas fa-eye" aria-hidden="true"></i> Preview

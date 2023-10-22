@@ -9,13 +9,13 @@ title: Home
 		<h1 id="intro-title">Mateo Dulce Rubio</h1>
 	</div>
 		<div class="intro-left">
-			Hola! I am a Ph.D. candidate in the <a href="https://www.cmu.edu/dietrich/statistics-datascience/academics/phd/statistics-public-policy/index.html"> Statistics and Public Policy </a> joint program at Carnegie Mellon University, advised by <a href="https://www.ehkennedy.com/"> Edward 
+			¡Hola! I am a Ph.D. candidate in the <a href="https://www.cmu.edu/dietrich/statistics-datascience/academics/phd/statistics-public-policy/index.html"> Statistics and Public Policy </a> joint program at Carnegie Mellon University, advised by <a href="https://www.ehkennedy.com/"> Edward 
 			H. Kennedy </a>. My research focuses on non-parametric statistics, causal inference, and responsible machine learning, with a strong emphasis on their applications for good. My dissertation encompasses the development of flexible and robust methods inspired by challenges arising in post-conflict scenarios and peacebuilding efforts.
 	
 		</div>
 		<div style="height: 1rem"></div>
 		<div class="intro-left">	
-			Before starting my PhD I worked at Quantil. 
+			Before starting my PhD I worked at Quantil. My background is in Mathematics (BSc) and Economics (BSc, MSc - cum laude) from Universidad de los Andes in Colombia.
 		</div>
 	</div>
 	<div class="intro-right">
