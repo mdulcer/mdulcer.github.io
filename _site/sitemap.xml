@@ -5,6 +5,10 @@
 <lastmod>2023-10-22T00:00:00-04:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/papers/rexperiments</loc>
+<lastmod>2023-10-22T00:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/papers/victimization</loc>
 <lastmod>2023-10-22T00:00:00-04:00</lastmod>
 </url>
@@ -12,11 +16,7 @@
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/papers/randomized-experiments.pdf</loc>
-<lastmod>2023-10-22T18:31:39-04:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/willcv.pdf</loc>
-<lastmod>2023-10-20T14:48:29-04:00</lastmod>
+<loc>http://localhost:4000/papers/CV_MDR_Oct23.pdf</loc>
+<lastmod>2023-10-22T23:45:54-04:00</lastmod>
 </url>
 </urlset>

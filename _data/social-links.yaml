@@ -4,7 +4,6 @@
   class: "fas fa-envelope icon"
   url: "mailto:mdulceru@andrew.cmu.edu"
   on-homepage: true
-  cv-group: 1
 
 - id: scholar
   description: "Google Scholar"
@@ -12,7 +11,6 @@
   class: "fa fa-graduation-cap icon"
   url: "https://scholar.google.com/citations?user=4pFEV6YAAAAJ&hl=en"
   on-homepage: true
-  cv-group: 2
 
 - id: linkedin
   description: "LinkedIn"
@@ -20,12 +18,17 @@
   class: "fa fa-graduation-cap icon"
   url: "https://www.linkedin.com/in/mateo-dulce/"
   on-homepage: true
-  cv-group: 2
+
+- id: github
+  description: "@mdulcer"
+  color: "#6e5494"
+  class: "fab fa-github icon"
+  url: "https://github.com/mdulcer"
+  on-homepage: true
 
 - id: cv
-  description: CV PDF
+  description: CV
   color: "#ba2818"
   class: "far fa-file-pdf icon"
-  url: "https://drive.google.com/open?id=1zfOnsWfQzoTkyO4sk1OtV-kE2hCrLe6l&usp=drive_fs"
+  url: /papers/CV_MDR_Oct23.pdf
   on-homepage: true
-  cv-group: 1

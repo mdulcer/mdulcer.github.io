@@ -15,7 +15,7 @@ title: Home
 		</div>
 		<div style="height: 1rem"></div>
 		<div class="intro-left">	
-			Before starting my PhD I worked at Quantil. My background is in Mathematics (BSc) and Economics (BSc, MSc - cum laude) from Universidad de los Andes in Colombia.
+			Before starting my Ph.D. I worked at <a href="https://quantil.co/en//"> Quantil </a>. My background is in Mathematics (BSc) and Economics (BSc, MSc <i>cum laude</i>) from Universidad de los Andes in Colombia.
 		</div>
 	</div>
 	<div class="intro-right">

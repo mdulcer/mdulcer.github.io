@@ -14,16 +14,11 @@
   coming-soon: true
   venue: "Forthcoming"
   venue-shorthand: "Forthcoming"
-  #location: Melbourne, Australia
   year: 2023
-  #type: conference
-  #award: Best Paper Honorable Mention
   url: /papers/reland
   #pdf: /papers/autoprofiler-vis23.pdf
   image: /images/papers/23-reland-vis.png
-  #code: https://github.com/cmudig/AutoProfiler
   presentacion: https://www.youtube.com/live/cKINGMf4R2c?si=ERclLIqUps2K90-b
-  #recording: https://www.youtube.com/live/cKINGMf4R2c?si=ERclLIqUps2K90-b
   featured: true
   feature-order: 1
   feature-title: "RELand: Risk Estimation of Landmines via Interpretable Invariant Risk Minimization"
@@ -46,34 +41,33 @@
     humanitarian demining NGO in Colombia that is using our system as part of their field operations in two areas recently
     prioritized for demining.
 
+
 - id: rexperiments
-  title: "Book chapter on Randomized Experiments"
+  title: "Randomized Experiments"
   authors:
     - Amanda Coston
     - Mateo Dulce Rubio
     - Edward H. Kennedy
-  venue: "VDS at VIS 23: Visual Data Science Symposium"
-  venue-shorthand: VDS
-  location: Melbourne, Australia
-  year: 2023
-  type: workshop 
-  award: Best Paper
+  venue: "AI for Social Impact Book"
+  venue-shorthand: AI4SI Book
+  year: 2022
   url: /papers/rexperiments
-  pdf: /papers/randomized-experimetns.pdf
-  image: /images/papers/23-quickdashboard-vis.png
-  featured: false
-  feature-order: 2
-  feature-title: ""
-  summary: ""
-  caption: ""
+  pdf: https://ai4sibook.org/wp-content/uploads/2022/08/randomized-experiments.pdf
+  image: /images/papers/ai4si.png
+  featured: true
+  feature-order: 3
+  feature-title: "Randomized Experiments (Book chapter)"
+  summary: "AI for Social Impact Book. Edited by Milind Tambe, Fei Fang & Bryan Wilder. <a href='https://ai4sibook.org/'> https://ai4sibook.org/ </a>"
+  caption: "AI for Social Impact Book. Edited by Milind Tambe, Fei Fang & Bryan Wilder. <a href='https://ai4sibook.org/'> https://ai4sibook.org/ </a>"
   abstract: |
-    Despite their ubiquity, authoring dashboards for metrics reporting in modern data analysis tools remains a manual, time-consuming process. 
-    Rather than focusing on interesting combinations of their data, users have to spend time creating each chart in a dashboard one by one. 
-    This makes dashboard creation slow and tedious. We conducted a review of production metrics dashboards and found that many dashboards contain a 
-    common structure: breaking down one or more metrics by different dimensions. In response, we developed a high-level specification for describing 
-    dashboards as sections of metrics repeated across the same dimensions and a graphical interface, Quick Dashboard, for authoring dashboards based on 
-    this specification. We present several usage examples that demonstrate the flexibility of this specification to create various kinds of dashboards 
-    and support a data-first approach to dashboard authoring.
+    Once deployed in the real world, even the most carefully designed artificial intelligence (AI) systems may fail to achieve their intended goals or may have adverse unintended consequences. 
+    How should researchers assess whether the AI actually improved outcomes? Randomized experiments are the gold standard for evaluation. They enable one to isolate the effect of the AI from other 
+    potentially confounding factors. Examples of AI systems for social impact that have been deployed and evaluated in the real world abound: Wang et al. [2019] studies the effect on the adenoma detection 
+    rate of using real-time AI-assisted colonoscopies, Mohler et al. [2015] evaluates the effect of using a predictive policing model on crime rates in Los Angeles, Mate et al. [2021] assesses the effect 
+    on dropout of using a model to prioritize the follow-up of participants in a maternal and child care information program, etc. In this chapter we give an introduction and review of randomized experiments. 
+    More details and exposition can be found in Hernán and Robins [2010], Imbens and Rubin [2015], Rosenbaum [2002], Tsiatis [2006], van der Laan and Robins [2003], for example, among many others.
+
+  
 
 - id: victimization
   title: "Effects of Adolescent Victimization on Offending: Flexible Methods for Missing Data & Unmeasured Confounding"
@@ -84,7 +78,6 @@
     - Daniel S. Nagin
   venue: arXiv:2309.12595
   venue-shorthand: arXiv
-  #location: Rome, Italy
   year: 2023
   type: preprint
   url: /papers/victimization
