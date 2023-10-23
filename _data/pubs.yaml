@@ -39,35 +39,7 @@
     that resemble real-world demining operations to show a significant improvement over the state-of-the-art, and (3) build
     an interactive web interface to suggest priority areas for demining organizations. We are currently collaborating with a
     humanitarian demining NGO in Colombia that is using our system as part of their field operations in two areas recently
-    prioritized for demining.
-
-
-- id: rexperiments
-  title: "Randomized Experiments"
-  authors:
-    - Amanda Coston
-    - Mateo Dulce Rubio
-    - Edward H. Kennedy
-  venue: "AI for Social Impact Book"
-  venue-shorthand: AI4SI Book
-  year: 2022
-  url: /papers/rexperiments
-  pdf: https://ai4sibook.org/wp-content/uploads/2022/08/randomized-experiments.pdf
-  image: /images/papers/ai4si.png
-  featured: true
-  feature-order: 3
-  feature-title: "Randomized Experiments (Book chapter)"
-  summary: "AI for Social Impact Book. Edited by Milind Tambe, Fei Fang & Bryan Wilder. <a href='https://ai4sibook.org/'> https://ai4sibook.org/ </a>"
-  caption: "AI for Social Impact Book. Edited by Milind Tambe, Fei Fang & Bryan Wilder. <a href='https://ai4sibook.org/'> https://ai4sibook.org/ </a>"
-  abstract: |
-    Once deployed in the real world, even the most carefully designed artificial intelligence (AI) systems may fail to achieve their intended goals or may have adverse unintended consequences. 
-    How should researchers assess whether the AI actually improved outcomes? Randomized experiments are the gold standard for evaluation. They enable one to isolate the effect of the AI from other 
-    potentially confounding factors. Examples of AI systems for social impact that have been deployed and evaluated in the real world abound: Wang et al. [2019] studies the effect on the adenoma detection 
-    rate of using real-time AI-assisted colonoscopies, Mohler et al. [2015] evaluates the effect of using a predictive policing model on crime rates in Los Angeles, Mate et al. [2021] assesses the effect 
-    on dropout of using a model to prioritize the follow-up of participants in a maternal and child care information program, etc. In this chapter we give an introduction and review of randomized experiments. 
-    More details and exposition can be found in Hernán and Robins [2010], Imbens and Rubin [2015], Rosenbaum [2002], Tsiatis [2006], van der Laan and Robins [2003], for example, among many others.
-
-  
+    prioritized for demining. 
 
 - id: victimization
   title: "Effects of Adolescent Victimization on Offending: Flexible Methods for Missing Data & Unmeasured Confounding"
@@ -85,7 +57,7 @@
   image: /images/papers/heterogeneous_all.png
   presentacion: https://www.youtube.com/watch?v=6P81u2h30mA
   featured: true
-  feature-order: 3
+  feature-order: 2
   feature-title: "Effects of Adolescent Victimization on Offending: Flexible Methods for Missing Data & Unmeasured Confounding"
   summary: ""
   caption: |
@@ -114,3 +86,28 @@
       primaryClass={stat.ME}
     }
 
+
+- id: rexperiments
+  title: "Randomized Experiments"
+  authors:
+    - Amanda Coston
+    - Mateo Dulce Rubio
+    - Edward H. Kennedy
+  venue: "AI for Social Impact Book"
+  venue-shorthand: AI4SI Book
+  year: 2022
+  url: /papers/rexperiments
+  pdf: https://ai4sibook.org/wp-content/uploads/2022/08/randomized-experiments.pdf
+  image: /images/papers/ai4si.png
+  featured: true
+  feature-order: 3
+  feature-title: "Randomized Experiments (Book chapter)"
+  summary: "AI for Social Impact Book. Edited by Milind Tambe, Fei Fang & Bryan Wilder. <a href='https://ai4sibook.org/'> https://ai4sibook.org/ </a>"
+  caption: "AI for Social Impact Book. Edited by Milind Tambe, Fei Fang & Bryan Wilder. <a href='https://ai4sibook.org/'> https://ai4sibook.org/ </a>"
+  abstract: |
+    Once deployed in the real world, even the most carefully designed artificial intelligence (AI) systems may fail to achieve their intended goals or may have adverse unintended consequences. 
+    How should researchers assess whether the AI actually improved outcomes? Randomized experiments are the gold standard for evaluation. They enable one to isolate the effect of the AI from other 
+    potentially confounding factors. Examples of AI systems for social impact that have been deployed and evaluated in the real world abound: Wang et al. [2019] studies the effect on the adenoma detection 
+    rate of using real-time AI-assisted colonoscopies, Mohler et al. [2015] evaluates the effect of using a predictive policing model on crime rates in Los Angeles, Mate et al. [2021] assesses the effect 
+    on dropout of using a model to prioritize the follow-up of participants in a maternal and child care information program, etc. In this chapter we give an introduction and review of randomized experiments. 
+    More details and exposition can be found in Hernán and Robins [2010], Imbens and Rubin [2015], Rosenbaum [2002], Tsiatis [2006], van der Laan and Robins [2003], for example, among many others.
