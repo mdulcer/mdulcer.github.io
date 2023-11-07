@@ -10,12 +10,12 @@ title: Home
 	</div>
 		<div class="intro-left">
 			¡Hola! I am a Ph.D. candidate in the <a href="https://www.cmu.edu/dietrich/statistics-datascience/academics/phd/statistics-public-policy/index.html"> Statistics and Public Policy </a> joint program at Carnegie Mellon University, advised by <a href="https://www.ehkennedy.com/"> Edward 
-			H. Kennedy </a>. My research focuses on non-parametric statistics, causal inference, and responsible machine learning, with a strong emphasis on their applications for good. My dissertation encompasses the development of flexible and robust methods inspired by challenges arising in post-conflict scenarios and peacebuilding efforts.
+			H. Kennedy</a>. My research focuses on non-parametric statistics, causal inference, and responsible machine learning, with a strong emphasis on their applications for good. My dissertation encompasses the development of flexible and robust methods inspired by challenges arising in post-conflict scenarios and peacebuilding efforts. I am a <a href="https://www.cmu.edu/fso/prestigious-%20scholarships/kl-gates-presidential-fellowship/index.html"> K&L Gates Presidential Fellow</a> in Ethics and Computational Technologies.	
 	
 		</div>
 		<div style="height: 1rem"></div>
 		<div class="intro-left">	
-			Before starting my Ph.D. I worked at <a href="https://quantil.co/en//"> Quantil </a>. My background is in Mathematics (BSc) and Economics (BSc, MSc <i>cum laude</i>) from Universidad de los Andes in Colombia.
+			I am the co-founder of the <a href="https://centroanaliticapp.org/"> Centro de Analítica para Políticas Públicas</a> (Center of Analytics for Public Policy), a research initiative dedicated to fostering the advancement of mathematics, data science, and AI for the public sector in Colombia and Latin America. Before starting my PhD, I worked at <a href="https://quantil.co/en//"> Quantil</a> mostly on crime modeling research in Bogotá. My background is in Mathematics (BSc) and Economics (BSc, MSc <i>cum laude</i>) from Universidad de los Andes in Colombia.
 		</div>
 	</div>
 	<div class="intro-right">

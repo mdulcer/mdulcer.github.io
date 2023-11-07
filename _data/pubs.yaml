@@ -11,12 +11,12 @@
   equal-contribution:
     - Mateo Dulce Rubio
     - Siqi Zeng
-  coming-soon: true
+  coming-soon: false
   venue: "Forthcoming"
   venue-shorthand: "Forthcoming"
   year: 2023
   url: /papers/reland
-  #pdf: /papers/autoprofiler-vis23.pdf
+  pdf: https://arxiv.org/pdf/2311.03115.pdf
   image: /images/papers/23-reland-vis.png
   presentacion: https://www.youtube.com/live/cKINGMf4R2c?si=ERclLIqUps2K90-b
   featured: true
