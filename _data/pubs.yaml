@@ -12,9 +12,9 @@
     - Mateo Dulce Rubio
     - Siqi Zeng
   coming-soon: false
-  venue: "Forthcoming"
-  venue-shorthand: "Forthcoming"
-  year: 2023
+  venue: "ACM Journal on Computing and Sustainable Societies"
+  venue-shorthand: "ACM JCSS"
+  year: Forthcoming
   url: /papers/reland
   pdf: https://arxiv.org/pdf/2311.03115.pdf
   image: /images/papers/23-reland-vis.png

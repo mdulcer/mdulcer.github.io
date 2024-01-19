@@ -24,11 +24,11 @@
   color: "#6e5494"
   class: "fab fa-github icon"
   url: "https://github.com/mdulcer"
-  on-homepage: true
+  on-homepage: false
 
 - id: cv
   description: CV
   color: "#ba2818"
   class: "far fa-file-pdf icon"
-  url: /papers/CV_MDR_Oct23.pdf
+  url: /papers/CV_MDR_Jan24.pdf
   on-homepage: true
