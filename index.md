@@ -3,6 +3,13 @@ layout: home
 title: Home
 ---
 
+<style>
+table, th, td {
+  border-style: none;
+  vertical-align: top;
+}
+</style>
+
 <div id ="intro-wrapper" class="l-middle">
 	<div class="intro-left">
 	<div id="intro-title-wrapper" class="intro-left">
@@ -11,7 +18,6 @@ title: Home
 		<div class="intro-left">
 			¡Hola! I am a Ph.D. candidate in the <a href="https://www.cmu.edu/dietrich/statistics-datascience/academics/phd/statistics-public-policy/index.html"> Statistics and Public Policy </a> joint program at Carnegie Mellon University, advised by <a href="https://www.ehkennedy.com/"> Edward 
 			H. Kennedy</a>. My research focuses on non-parametric statistics, causal inference, and responsible machine learning, with a strong emphasis on their applications for good. My dissertation encompasses the development of flexible and robust methods inspired by challenges arising in post-conflict scenarios and peacebuilding efforts. I am a <a href="https://www.cmu.edu/fso/prestigious-%20scholarships/kl-gates-presidential-fellowship/index.html"> K&L Gates Presidential Fellow</a> in Ethics and Computational Technologies.	
-	
 		</div>
 		<div style="height: 1rem"></div>
 		<div class="intro-left">	
@@ -19,6 +25,7 @@ title: Home
 		</div>
 	</div>
 	<div class="intro-right">
+		<div style="height: 2rem"></div>
 		<img id="intro-image" class="intro-right" src="/images/MDR.jpg">
 		<div style="height: 0.5rem"></div>
 		<div id="intro-image-links" class="intro-right">
@@ -29,14 +36,37 @@ title: Home
 			{% endfor %}
     	</div>
     </div>
-
 </div>
 
-<hr class="l-middle home-hr">
 
+<hr class="l-middle home-hr">
+<h2 class="feature-title l-middle">
+	Recent News
+</h2>
+<div style="height: 0.5rem"></div>
+<div class="l-middle">
+	<table style="background-color:white">
+	<tr>
+		<td style="width:17%" > <b>January 2024</b> </td>
+		<td> Won the ASA Student Paper Competition Award in the Social Statistics Section for my work on nonparametric capture-recapture methods and will be presenting at the <a href="https://ww2.amstat.org/meetings/jsm/2024/"> Joint Statistical Meeting 2024</a> .</td>  
+	</tr>
+	<tr>
+		<td><b>January 2024</b></td>
+		<td>Our paper <a href="https://arxiv.org/pdf/2311.03115.pdf"> "RELand: Risk Estimation of Landmines via Interpretable Invariant Risk Minimization"</a>  was accepted for publication at the ACM Journal on Computing and Sustainable Societies and will be presented at <a href="https://compass.acm.org/"> COMPASS</a> in July!</td>  
+	</tr>
+	<tr>
+		<td><b>October 2023</b></td>
+		<td> Awarded the <a href="https://www.cmu.edu/fso/prestigious-%20scholarships/kl-gates-presidential-fellowship/index.html"> K&L Gates Presidential Fellowship </a> in Ethics and Computational Technologies.</td>  
+	</tr> 
+	</table>
+</div>
+
+
+<hr class="l-middle home-hr">
 <h2 class="feature-title l-middle">
 	Selected Research Projects
 </h2>
+<div style="height: 0.5rem"></div>
 <div class="cover-wrapper l-screen">
 	{% assign sortedPublications = site.data.pubs | sort: 'feature-order' %}
 	{% for feature in sortedPublications %}

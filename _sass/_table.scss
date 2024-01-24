@@ -1,13 +1,13 @@
 table {
   margin-bottom: 1rem;
   width: 100%;
-  font-size: 85%;
+  font-size: 1.1rem;
   border: 1px solid $table-border-color;
   border-collapse: collapse;
 }
 
 td, th {
-  padding: 0.75rem 0.75rem;
+  padding: 0.5rem 0.5rem;
   border: 1px solid $table-border-color;
 }
 
@@ -16,6 +16,7 @@ th {
   text-transform: uppercase;
 }
 
-tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th {
- background-color: $table-row-color;
-}
+// tbody tr:nth-child(odd) td, tbody tr:nth-child(odd) th {
+// background-color: $table-row-color;
+
+// }
