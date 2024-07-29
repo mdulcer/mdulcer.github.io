@@ -1,3 +1,52 @@
+- id: drcr
+  title: "Population Size Estimation with Many Lists and Heterogeneity: A Conditional Log-Linear Model Among the Unobserved"
+  authors:
+    - Mateo Dulce Rubio
+    - Edward H. Kennedy
+  venue: arXiv:2407.03539 (under revision)
+  venue-shorthand: preprint
+  year: 2024
+  type: preprint
+  url: /papers/drcr
+  pdf: https://arxiv.org/pdf/2407.03539
+  image: /images/papers/drcr-peru.png
+  featured: true
+  feature-order: 1
+  feature-title: "Population Size Estimation with Many Lists and Heterogeneity: A Conditional Log-Linear Model Among the Unobserved"
+  summary: ""
+  caption: |
+     Estimated number of casualties in the Peruvian internal conflict for different identification strategies vs. 
+     positivity lower bound on the estimated q-probabilities.
+  abstract: |
+    We contribute a general and flexible framework to estimate the size of a closed population in the presence of 
+    K capture-recapture lists and heterogeneous capture probabilities.
+    Our novel identifying strategy leverages the fact that it is sufficient for identification that
+    a subset of the K lists are not arbitrarily dependent within the subset of the population
+    unobserved by the remaining lists, conditional on covariates. This identification approach
+    is interpretable and actionable, interpolating between the two predominant approaches in
+    the literature as special cases: (conditional) independence across lists and log-linear models
+    with no highest-order interaction. We derive nonparametric doubly-robust estimators for
+    the resulting identification expression that are nearly optimal and approximately normal
+    for any finite sample size, even when the heterogeneous capture probabilities are estimated
+    nonparametrically using machine learning methods. Additionally, we devise a sensitivity
+    analysis to show how deviations from the identification assumptions affect the resulting
+    population size estimates, allowing for the integration of domain-specific knowledge into
+    the identification and estimation processes more transparently. We empirically demonstrate
+    the advantages of our method using both synthetic data and real data from the Peruvian
+    internal armed conflict to estimate the number of casualties. The proposed methodology
+    addresses recent critiques of capture-recapture models by allowing for a weaker and more
+    interpretable identifying assumption and accommodating complex heterogeneous capture
+    probabilities depending on high-dimensional or continuous covariates.
+  bibtex: |-
+    @misc{dulce2024population,
+      title={Population Size Estimation with Many Lists and Heterogeneity: A Conditional Log-Linear Model Among the Unobserved}, 
+      author={Dulce Rubio, Mateo and Kennedy, Edward H},
+      year={2024},
+      eprint={2407.03539},
+      archivePrefix={arXiv},
+      primaryClass={stat.ME}
+    }
+
 - id: reland
   title: "RELand: Risk Estimation of Landmines via Interpretable Invariant Risk Minimization"
   authors:
@@ -12,15 +61,15 @@
     - Mateo Dulce Rubio
     - Siqi Zeng
   coming-soon: false
-  venue: "ACM Journal on Computing and Sustainable Societies"
+  venue: "ACM Journal on Computing and Sustainable Societies 2 (2)"
   venue-shorthand: "ACM JCSS"
-  year: Forthcoming
+  year: 2024
   url: /papers/reland
   pdf: https://arxiv.org/pdf/2311.03115.pdf
   image: /images/papers/23-reland-vis.png
   presentacion: https://www.youtube.com/live/cKINGMf4R2c?si=ERclLIqUps2K90-b
   featured: true
-  feature-order: 1
+  feature-order: 2
   feature-title: "RELand: Risk Estimation of Landmines via Interpretable Invariant Risk Minimization"
   summary: "ML system to support humanitarian demining, currently being tested in Colombia."
   caption: "Integration of RELand system into the humanitarian demining pipeline. Current non-technical surveys (grey)
@@ -48,8 +97,8 @@
     - Edward H. Kennedy
     - Valerio Baćak (Rutgers)
     - Daniel S. Nagin
-  venue: arXiv:2309.12595
-  venue-shorthand: arXiv
+  venue: arXiv:2309.12595 (under revision)
+  venue-shorthand: preprint
   year: 2023
   type: preprint
   url: /papers/victimization
@@ -57,7 +106,7 @@
   image: /images/papers/heterogeneous_all.png
   presentacion: https://www.youtube.com/watch?v=6P81u2h30mA
   featured: true
-  feature-order: 2
+  feature-order: 3
   feature-title: "Effects of Adolescent Victimization on Offending: Flexible Methods for Missing Data & Unmeasured Confounding"
   summary: ""
   caption: |
@@ -100,7 +149,7 @@
   pdf: https://ai4sibook.org/wp-content/uploads/2022/08/randomized-experiments.pdf
   image: /images/papers/ai4si.png
   featured: true
-  feature-order: 3
+  feature-order: 4
   feature-title: "Randomized Experiments (Book chapter)"
   summary: "AI for Social Impact Book. Edited by Milind Tambe, Fei Fang & Bryan Wilder. <a href='https://ai4sibook.org/'> https://ai4sibook.org/ </a>"
   caption: "AI for Social Impact Book. Edited by Milind Tambe, Fei Fang & Bryan Wilder. <a href='https://ai4sibook.org/'> https://ai4sibook.org/ </a>"
