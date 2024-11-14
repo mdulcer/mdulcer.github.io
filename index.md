@@ -65,7 +65,7 @@ table, th, td {
 	</tr>
 	<tr>
 		<td style="width:17%" > <b>October 2024</b> </td>
-		<td> Invited to give a talk at the INFORMS Doing Good with Good OR competition on on "Identification of Hazard Clusters for Priority Landmine Clearance as a Quadratic Knapsack Problem".</td>  
+		<td> Invited to give a talk at the INFORMS Doing Good with Good OR competition on "Identification of Hazard Clusters for Priority Landmine Clearance as a Quadratic Knapsack Problem".</td>  
 	</tr>
 	<tr>
 		<td style="width:17%" > <b>August 2024</b> </td>
