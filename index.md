@@ -61,7 +61,7 @@ table, th, td {
 	<table style="background-color:white">
 	<tr>
 		<td style="width:17%" > <b>October 2024</b> </td>
-		<td> My co-author <a href="https://secg5.github.io/"> Santiago Cortes-Gómez </a> will be presenting our work <a href="https://proceedings.mlr.press/v235/cortes-gomez24a.html"> "Statistical Inference Under Constrained Selection Bias"</a> at EAAMO'24! </a></td>  
+		<td> My co-author <a href="https://secg5.github.io/"> Santiago Cortes-Gómez </a> will be presenting our work <a href="https://proceedings.mlr.press/v235/cortes-gomez24a.html"> "Statistical Inference Under Constrained Selection Bias"</a> at EAAMO'24! </td>  
 	</tr>
 	<tr>
 		<td style="width:17%" > <b>October 2024</b> </td>
