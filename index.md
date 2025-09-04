@@ -11,20 +11,20 @@ table, th, td {
 </style>
 
 <div id ="intro-wrapper" class="l-middle">
-	<div class="intro-left">
-		<div id="intro-title-wrapper" class="intro-left">
+	<div id="intro-title-wrapper" class="intro-left">
 			<h1 id="intro-title">Mateo Dulce Rubio</h1>
-		</div>	
+	</div>	
+	<div class="intro-left">
 		<div class="intro-left">
-			¡Hola! I am a Ph.D. candidate in <a href="https://www.cmu.edu/dietrich/statistics-datascience/academics/phd/statistics-public-policy/index.html"> Statistics and Public Policy </a> at Carnegie Mellon University, advised by <a href="https://www.ehkennedy.com/"> Edward H. Kennedy</a>. My research develops flexible and robust statistical methods for humanitarian and policy applications, using tools from nonparametric statistics, causal inference, mathematical optimization, and responsible machine learning. 
+			¡Hola! I am an Assistant Professor & Faculty Fellow at the <a href="https://cds.nyu.edu/">NYU Center for Data Science</a>. I recently completed a PhD in Statistics and Public Policy at Carnegie Mellon University, advised by <a href="https://www.ehkennedy.com/">	Edward H. Kennedy</a>, where I received the William W. Cooper Doctoral Dissertation Award for my thesis “Robust Nonparametric Methods for Peacebuilding.” 
 		</div>
 		<div style="height: 1rem"></div>
 		<div class="intro-left">
-			My work includes creating an AI-informed tool for estimating <a href="https://news.un.org/en/story/2023/04/1135252"> landmine contamination</a> risk, used in Colombia and Afghanistan to identify priority areas for mine clearance in collaboration with the UN Mine Action Service and UNOPS. I also work on developing doubly robust estimators for causal inference and population size estimation under capture heterogeneity and recapture dependence, with applications in conservation, public health, and human rights. Finally, I investigate limitations of current algorithmic decision-making from observational data and devise new methods to address issues like selection biases, missing data, privacy, and algorithmic discrimination.
+			My research develops flexible and robust statistical methods for humanitarian and policy applications, using tools from nonparametric statistics, causal inference, mathematical optimization, and responsible machine learning. My work includes creating an AI-informed tool for estimating <a href="https://news.un.org/en/story/2023/04/1135252"> landmine contamination</a> risk, used in Colombia and Afghanistan to identify priority areas for mine clearance in collaboration with the UN Mine Action Service and UNOPS. I also work on developing doubly robust estimators for causal inference and population size estimation under capture heterogeneity and recapture dependence, with applications in conservation, public health, and human rights. Finally, I investigate limitations of current algorithmic decision-making from observational data and devise new methods to address issues like selection biases, missing data, privacy, and algorithmic discrimination.
 		</div>
 		<div style="height: 1rem"></div>
 		<div class="intro-left">	
-			I am a <a href="https://www.cmu.edu/fso/prestigious-%20scholarships/kl-gates-presidential-fellowship/index.html"> K&L Gates Presidential Fellow</a> in Ethics and Computational Technologies. I have worked at RAND Corporation and Apple on natural language processing and foundation models. Before that, I co-founded the <a href="https://centroanaliticapp.org/"> Centro de Analítica para Políticas Públicas</a> and worked at <a href="https://quantil.co/en//"> Quantil</a> mostly on crime modeling research in Bogotá. My background is in Mathematics (BSc) and Economics (BSc, MSc <i>cum laude</i>) from Universidad de los Andes in Colombia.
+			During my PhD, I was a <a href="https://www.cmu.edu/fso/prestigious-%20scholarships/kl-gates-presidential-fellowship/index.html"> K&L Gates Presidential Fellow</a> in Ethics and Computational Technologies, and worked at RAND Corporation and Apple on natural language processing and foundation models. Before that, I co-founded the <a href="https://centroanaliticapp.org/"> Centro de Analítica para Políticas Públicas</a> and worked at <a href="https://quantil.co/en//"> Quantil</a> mostly on crime modeling research in Bogotá. My background is in Mathematics (BSc) and Economics (BSc, MSc <i>cum laude</i>) from Universidad de los Andes in Colombia.
 		</div>
 	</div>
 	<div class="intro-right">
@@ -45,10 +45,6 @@ table, th, td {
 <div class="l-middle">	
 	<i>* Dulce is my first (paternal) last name and Rubio is my second (maternal) last name.</i> 
 </div>
-<div style="height: 1rem"></div>
-<div class="l-middle">	
-	<h3> ★ I am on the academic job market for tenure track postitions and postdocs! </h3>
-</div>
 
 
 
@@ -59,6 +55,10 @@ table, th, td {
 <div style="height: 0.5rem"></div>
 <div class="l-middle">
 	<table style="background-color:white">
+	<tr>
+		<td style="width:17%" > <b>September 2025</b> </td>
+		<td> Joined New York University as an Assistant Professor & Faculty Fellow at the Center for Data Science! </td>
+	</tr>
 	<tr>
 		<td style="width:17%" > <b>October 2024</b> </td>
 		<td> My co-author <a href="https://secg5.github.io/"> Santiago Cortes-Gómez </a> will be presenting our work <a href="https://proceedings.mlr.press/v235/cortes-gomez24a.html"> "Statistical Inference Under Constrained Selection Bias"</a> at EAAMO'24! </td>  
