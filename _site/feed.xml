@@ -1,4 +1,494 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-09-04T11:08:13-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mateo Dulce Rubio</title><author><name>Mateo Dulce Rubio</name><email>mdulceru@andrew.cmu.edu</email></author><entry><title type="html">Drcr</title><link href="http://localhost:4000/papers/drcr" rel="alternate" type="text/html" title="Drcr" /><published>2024-07-29T00:00:00-04:00</published><updated>2024-07-29T00:00:00-04:00</updated><id>http://localhost:4000/papers/drcr</id><content type="html" xml:base="http://localhost:4000/papers/drcr">&lt;h1 id=&quot;population-size-estimation-with-many-lists-and-heterogeneity-a-conditional-log-linear-model-among-the-unobserved&quot;&gt;Population Size Estimation with Many Lists and Heterogeneity: A Conditional Log-Linear Model Among the Unobserved&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-10-20T18:54:18-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mateo Dulce Rubio</title><author><name>Mateo Dulce Rubio</name><email>mdulceru@andrew.cmu.edu</email></author><entry><title type="html">Sesgo</title><link href="http://localhost:4000/papers/sesgo" rel="alternate" type="text/html" title="Sesgo" /><published>2025-10-20T00:00:00-04:00</published><updated>2025-10-20T00:00:00-04:00</updated><id>http://localhost:4000/papers/sesgo</id><content type="html" xml:base="http://localhost:4000/papers/sesgo">&lt;h1 id=&quot;sesgo-spanish-evaluation-of-stereotypical-generative-outputs&quot;&gt;SESGO: Spanish Evaluation of Stereotypical Generative Outputs&lt;/h1&gt;
+&lt;p&gt;
+
+  
+    
+Melissa Robles,
+  
+
+  
+    
+Catalina Bernal,
+  
+
+  
+    
+Denniss Raigoso,
+  
+
+  
+    
+&lt;a href=&quot;http://mdulcer.github.io&quot;&gt;Mateo Dulce Rubio&lt;/a&gt;
+  
+
+&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img class=&quot;single&quot; src=&quot;/images/papers/cross-linguistic.png&quot; /&gt;
+    &lt;figcaption class=&quot;single&quot;&gt;
+      Cross-linguistic comparison of bias scores in ambiguous prompts. Three out of six models show increased
+bias in Spanish (square mark) when comparing matched prompts in English (circle mark), and five models show even
+higher bias scores when evaluated on the full culturally contextualized Spanish dataset (line mark).
+
+
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;This paper addresses the critical gap in evaluating bias
+in multilingual Large Language Models (LLMs), with a
+specific focus on Spanish language within culturally-aware
+Latin American contexts. Despite widespread global deployment, current evaluations remain predominantly US-English-
+centric, leaving potential harms in other linguistic and cultural contexts largely underexamined. We introduce a novel,
+culturally-grounded framework for detecting social biases in instruction-tuned LLMs. Our approach adapts the 
+underspecified question methodology from the BBQ dataset by incorporating culturally-specific expressions and sayings that 
+encode regional stereotypes across four social categories: gender, race, socioeconomic class, and national origin. 
+Using more than 4,000 prompts, we propose a new metric that combines accuracy with the direction of error to effectively 
+balance model performance and bias alignment in both ambiguous and disambiguated contexts. To our knowledge, our work
+presents the first systematic evaluation examining how leading commercial LLMs respond to culturally specific bias in
+the Spanish language, revealing varying patterns of bias manifestation across state-of-the-art models. We also contribute
+evidence that bias mitigation techniques optimized for English do not effectively transfer to Spanish tasks, and that
+bias patterns remain largely consistent across different sampling temperatures. Our modular framework offers a natural
+extension to new stereotypes, bias categories, or languages and cultural contexts, representing a significant step toward
+more equitable and culturally-aware evaluation of AI systems in the diverse linguistic environments where they operate.&lt;/p&gt;
+
+&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
+&lt;p&gt;
+
+	&lt;strong&gt;SESGO: Spanish Evaluation of Stereotypical Generative Outputs&lt;/strong&gt;
+
+
+&lt;br /&gt;
+
+
+	
+		
+Melissa Robles,
+	
+
+	
+		
+Catalina Bernal,
+	
+
+	
+		
+Denniss Raigoso,
+	
+
+	
+		
+&lt;a href=&quot;http://mdulcer.github.io&quot;&gt;Mateo Dulce Rubio&lt;/a&gt;
+	
+
+
+&lt;br /&gt;
+
+&lt;!--
+--&gt;
+
+&lt;i&gt;AAAI/ACM Conference on AI, Ethics, and Society (AIES (oral discussion),).  2025.&lt;/i&gt;
+
+&lt;br /&gt;
+
+
+	&lt;span class=&quot;pub-misc&quot;&gt;
+
+	
+
+	&lt;!--
+	  &lt;a href=&quot;/papers/sesgo&quot;&gt;
+	    &lt;i class=&quot;fas fa-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Project
+	  &lt;/a&gt;
+	--&gt;
+
+	
+
+	
+	  &lt;a href=&quot;https://ojs.aaai.org/index.php/AIES/article/view/36707/38845&quot;&gt;
+	    &lt;i class=&quot;far fa-file-pdf&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; PDF
+	  &lt;/a&gt;
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		
+		
+	
+
+	
+
+	
+	
+	&lt;/span&gt;
+
+
+
+
+
+
+
+&lt;/p&gt;
+
+&lt;!-- ## BibTeX
+```
+@inproceedings{robles2025sesgo,
+  title={SESGO: Spanish Evaluation of Stereotypical Generative Outputs},
+  author={Robles, Melissa and Bernal, Catalina and Raigoso, Denniss and Dulce Rubio, Mateo},
+  booktitle={Proceedings of the AAAI/ACM Conference on AI, Ethics, and Society},
+  volume={8},
+  number={3},
+  pages={2214--2226},
+  year={2025}
+}
+
+``` --&gt;</content><author><name>Mateo Dulce Rubio</name><email>mdulceru@andrew.cmu.edu</email></author><summary type="html">SESGO: Spanish Evaluation of Stereotypical Generative Outputs Melissa Robles, Catalina Bernal, Denniss Raigoso, Mateo Dulce Rubio Cross-linguistic comparison of bias scores in ambiguous prompts. Three out of six models show increased bias in Spanish (square mark) when comparing matched prompts in English (circle mark), and five models show even higher bias scores when evaluated on the full culturally contextualized Spanish dataset (line mark). Abstract This paper addresses the critical gap in evaluating bias in multilingual Large Language Models (LLMs), with a specific focus on Spanish language within culturally-aware Latin American contexts. Despite widespread global deployment, current evaluations remain predominantly US-English- centric, leaving potential harms in other linguistic and cultural contexts largely underexamined. We introduce a novel, culturally-grounded framework for detecting social biases in instruction-tuned LLMs. Our approach adapts the underspecified question methodology from the BBQ dataset by incorporating culturally-specific expressions and sayings that encode regional stereotypes across four social categories: gender, race, socioeconomic class, and national origin. Using more than 4,000 prompts, we propose a new metric that combines accuracy with the direction of error to effectively balance model performance and bias alignment in both ambiguous and disambiguated contexts. To our knowledge, our work presents the first systematic evaluation examining how leading commercial LLMs respond to culturally specific bias in the Spanish language, revealing varying patterns of bias manifestation across state-of-the-art models. We also contribute evidence that bias mitigation techniques optimized for English do not effectively transfer to Spanish tasks, and that bias patterns remain largely consistent across different sampling temperatures. Our modular framework offers a natural extension to new stereotypes, bias categories, or languages and cultural contexts, representing a significant step toward more equitable and culturally-aware evaluation of AI systems in the diverse linguistic environments where they operate. Reference SESGO: Spanish Evaluation of Stereotypical Generative Outputs Melissa Robles, Catalina Bernal, Denniss Raigoso, Mateo Dulce Rubio AAAI/ACM Conference on AI, Ethics, and Society (AIES (oral discussion),). 2025. PDF</summary></entry><entry><title type="html">Sequential Dp</title><link href="http://localhost:4000/papers/sequential-dp" rel="alternate" type="text/html" title="Sequential Dp" /><published>2025-10-20T00:00:00-04:00</published><updated>2025-10-20T00:00:00-04:00</updated><id>http://localhost:4000/papers/sequential-dp</id><content type="html" xml:base="http://localhost:4000/papers/sequential-dp">&lt;h1 id=&quot;sequentially-auditing-differential-privacy&quot;&gt;Sequentially Auditing Differential Privacy&lt;/h1&gt;
+&lt;p&gt;
+
+  
+    
+Tomás González,
+  
+
+  
+    
+&lt;a href=&quot;http://mdulcer.github.io&quot;&gt;Mateo Dulce Rubio&lt;/a&gt;,
+  
+
+  
+    
+Aaditya Ramdas,
+  
+
+  
+    
+Mónica Ribero
+  
+
+&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img class=&quot;single&quot; src=&quot;/images/papers/seq-dp-audit.png&quot; /&gt;
+    &lt;figcaption class=&quot;single&quot;&gt;
+      We propose a new framework for approximate DP auditing using e-values, non-negative random variables that 
+(when multiplied) sequentially accumulate evidence against the null hypothesis. Under the null H0, the expectation 
+of an e-value is bounded by 1; under the alternative H1, well-designed (products of) e-values can grow exponentially fast, 
+allowing for early stopping and efficient detection of privacy violations. This sequential methodology allows testing to
+proceed adaptively: samples are collected and evaluated iteratively, and the test stops as soon as a significance level α is reached
+
+
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;We propose a practical sequential test for auditing differential privacy guarantees
+of black-box mechanisms. The test processes streams of mechanisms’ outputs
+providing anytime-valid inference while controlling Type I error, overcoming the
+fixed sample size limitation of previous batch auditing methods. Experiments
+show this test detects violations with sample sizes that are orders of magnitude
+smaller than existing methods, reducing this number from 50K to a few hundred
+examples, across diverse realistic mechanisms. Notably, it identifies DP-SGD
+privacy violations in under one training run, unlike prior methods needing full
+model training.&lt;/p&gt;
+
+&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
+&lt;p&gt;
+
+	&lt;strong&gt;Sequentially Auditing Differential Privacy&lt;/strong&gt;
+
+
+&lt;br /&gt;
+
+
+	
+		
+Tomás González,
+	
+
+	
+		
+&lt;a href=&quot;http://mdulcer.github.io&quot;&gt;Mateo Dulce Rubio&lt;/a&gt;,
+	
+
+	
+		
+Aaditya Ramdas,
+	
+
+	
+		
+Mónica Ribero
+	
+
+
+&lt;br /&gt;
+
+&lt;!--
+--&gt;
+
+&lt;i&gt;Neural Information Processing Systems (NeurIPS,).  2025.&lt;/i&gt;
+
+&lt;br /&gt;
+
+
+	&lt;span class=&quot;pub-misc&quot;&gt;
+
+	
+
+	&lt;!--
+	  &lt;a href=&quot;/papers/sequential-dp&quot;&gt;
+	    &lt;i class=&quot;fas fa-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Project
+	  &lt;/a&gt;
+	--&gt;
+
+	
+
+	
+	  &lt;a href=&quot;https://arxiv.org/pdf/2509.07055&quot;&gt;
+	    &lt;i class=&quot;far fa-file-pdf&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; PDF
+	  &lt;/a&gt;
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		
+		
+	
+
+	
+
+	
+	
+	&lt;/span&gt;
+
+
+
+
+
+
+
+&lt;/p&gt;
+
+&lt;!-- ## BibTeX
+```
+@article{gonzalez2025sequentially,
+  title={Sequentially Auditing Differential Privacy},
+  author={Gonz{\&apos;a}lez, Tom{\&apos;a}s and Dulce Rubio, Mateo and Ramdas, Aaditya and Ribero, M{\&apos;o}nica},
+  journal={Advances in Neural Information Processing Systems (NeurIPS), 2025. (Forthcoming)},
+  year={2025}
+}
+
+``` --&gt;</content><author><name>Mateo Dulce Rubio</name><email>mdulceru@andrew.cmu.edu</email></author><summary type="html">Sequentially Auditing Differential Privacy Tomás González, Mateo Dulce Rubio, Aaditya Ramdas, Mónica Ribero We propose a new framework for approximate DP auditing using e-values, non-negative random variables that (when multiplied) sequentially accumulate evidence against the null hypothesis. Under the null H0, the expectation of an e-value is bounded by 1; under the alternative H1, well-designed (products of) e-values can grow exponentially fast, allowing for early stopping and efficient detection of privacy violations. This sequential methodology allows testing to proceed adaptively: samples are collected and evaluated iteratively, and the test stops as soon as a significance level α is reached Abstract We propose a practical sequential test for auditing differential privacy guarantees of black-box mechanisms. The test processes streams of mechanisms’ outputs providing anytime-valid inference while controlling Type I error, overcoming the fixed sample size limitation of previous batch auditing methods. Experiments show this test detects violations with sample sizes that are orders of magnitude smaller than existing methods, reducing this number from 50K to a few hundred examples, across diverse realistic mechanisms. Notably, it identifies DP-SGD privacy violations in under one training run, unlike prior methods needing full model training. Reference Sequentially Auditing Differential Privacy Tomás González, Mateo Dulce Rubio, Aaditya Ramdas, Mónica Ribero Neural Information Processing Systems (NeurIPS,). 2025. PDF</summary></entry><entry><title type="html">C Micl</title><link href="http://localhost:4000/papers/c-micl" rel="alternate" type="text/html" title="C Micl" /><published>2025-10-20T00:00:00-04:00</published><updated>2025-10-20T00:00:00-04:00</updated><id>http://localhost:4000/papers/c-micl</id><content type="html" xml:base="http://localhost:4000/papers/c-micl">&lt;h1 id=&quot;conformal-mixed-integer-constraint-learning-with-feasibility-guarantees&quot;&gt;Conformal Mixed-Integer Constraint Learning with Feasibility Guarantees&lt;/h1&gt;
+&lt;p&gt;
+
+  
+    
+Daniel Ovalle,
+  
+
+  
+    
+Lorenz T. Biegler,
+  
+
+  
+    
+Ignacio E. Grossmann,
+  
+
+  
+    
+Carl D. Laird,
+  
+
+  
+    
+&lt;a href=&quot;http://mdulcer.github.io&quot;&gt;Mateo Dulce Rubio&lt;/a&gt;
+  
+
+&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img class=&quot;single&quot; src=&quot;/images/papers/cmicl_coverage_90.png&quot; /&gt;
+    &lt;figcaption class=&quot;single&quot;&gt;
+      Empirical ground-truth feasibility rate of optimal solution across Mixed-Integer Constraint Learning (MICL) methods. 
+Our Conformal-MICL approach (rightmost bar) is the only method that consistently satisfies the target ground-truth feasibility rate &amp;gt;= 90.
+
+
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;We propose Conformal Mixed-Integer Constraint Learning (C-MICL), a novel framework
+that provides probabilistic feasibility guarantees for data-driven constraints in optimization
+problems. While standard Mixed-Integer Constraint Learning methods often violate the
+true constraints due to model error or data limitations, our C-MICL approach leverages
+conformal prediction to ensure feasible solutions are ground-truth feasible. This guarantee
+holds with probability at least 1−α, under a conditional independence assumption. The
+proposed framework supports both regression and classification tasks without requiring
+access to the true constraint function, while avoiding the scalability issues associated with
+ensemble-based heuristics. Experiments on real-world applications demonstrate that C-MICL
+consistently achieves target feasibility rates, maintains competitive objective performance,
+and significantly reduces computational cost compared to existing methods. Our work
+bridges mathematical optimization and machine learning, offering a principled approach
+to incorporate uncertainty-aware constraints into decision-making with rigorous statistical guarantees.&lt;/p&gt;
+
+&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
+&lt;p&gt;
+
+	&lt;strong&gt;Conformal Mixed-Integer Constraint Learning with Feasibility Guarantees&lt;/strong&gt;
+
+
+&lt;br /&gt;
+
+
+	
+		
+Daniel Ovalle,
+	
+
+	
+		
+Lorenz T. Biegler,
+	
+
+	
+		
+Ignacio E. Grossmann,
+	
+
+	
+		
+Carl D. Laird,
+	
+
+	
+		
+&lt;a href=&quot;http://mdulcer.github.io&quot;&gt;Mateo Dulce Rubio&lt;/a&gt;
+	
+
+
+&lt;br /&gt;
+
+&lt;!--
+--&gt;
+
+&lt;i&gt;Neural Information Processing Systems (NeurIPS (spotlight!),).  2025.&lt;/i&gt;
+
+&lt;br /&gt;
+
+
+	&lt;span class=&quot;pub-misc&quot;&gt;
+
+	
+
+	&lt;!--
+	  &lt;a href=&quot;/papers/c-micl&quot;&gt;
+	    &lt;i class=&quot;fas fa-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Project
+	  &lt;/a&gt;
+	--&gt;
+
+	
+
+	
+	  &lt;a href=&quot;https://arxiv.org/pdf/2506.03531&quot;&gt;
+	    &lt;i class=&quot;far fa-file-pdf&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; PDF
+	  &lt;/a&gt;
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		
+		
+	
+
+	
+
+	
+	
+	&lt;/span&gt;
+
+
+
+
+
+
+
+&lt;/p&gt;
+
+&lt;!-- ## BibTeX
+```
+@article{ovalle2025conformal,
+  title={Conformal Mixed-Integer Constraint Learning with Feasibility Guarantees},
+  author={Ovalle, Daniel and Biegler, Lorenz T and Grossmann, Ignacio E and Laird, Carl D and Dulce Rubio, Mateo},
+  journal={Advances in Neural Information Processing Systems (NeurIPS), 2025. (Forthcoming)},
+  year={2025}
+}
+
+``` --&gt;</content><author><name>Mateo Dulce Rubio</name><email>mdulceru@andrew.cmu.edu</email></author><summary type="html">Conformal Mixed-Integer Constraint Learning with Feasibility Guarantees Daniel Ovalle, Lorenz T. Biegler, Ignacio E. Grossmann, Carl D. Laird, Mateo Dulce Rubio Empirical ground-truth feasibility rate of optimal solution across Mixed-Integer Constraint Learning (MICL) methods. Our Conformal-MICL approach (rightmost bar) is the only method that consistently satisfies the target ground-truth feasibility rate &amp;gt;= 90. Abstract We propose Conformal Mixed-Integer Constraint Learning (C-MICL), a novel framework that provides probabilistic feasibility guarantees for data-driven constraints in optimization problems. While standard Mixed-Integer Constraint Learning methods often violate the true constraints due to model error or data limitations, our C-MICL approach leverages conformal prediction to ensure feasible solutions are ground-truth feasible. This guarantee holds with probability at least 1−α, under a conditional independence assumption. The proposed framework supports both regression and classification tasks without requiring access to the true constraint function, while avoiding the scalability issues associated with ensemble-based heuristics. Experiments on real-world applications demonstrate that C-MICL consistently achieves target feasibility rates, maintains competitive objective performance, and significantly reduces computational cost compared to existing methods. Our work bridges mathematical optimization and machine learning, offering a principled approach to incorporate uncertainty-aware constraints into decision-making with rigorous statistical guarantees. Reference Conformal Mixed-Integer Constraint Learning with Feasibility Guarantees Daniel Ovalle, Lorenz T. Biegler, Ignacio E. Grossmann, Carl D. Laird, Mateo Dulce Rubio Neural Information Processing Systems (NeurIPS (spotlight!),). 2025. PDF</summary></entry><entry><title type="html">Drcr</title><link href="http://localhost:4000/papers/drcr" rel="alternate" type="text/html" title="Drcr" /><published>2024-07-29T00:00:00-04:00</published><updated>2024-07-29T00:00:00-04:00</updated><id>http://localhost:4000/papers/drcr</id><content type="html" xml:base="http://localhost:4000/papers/drcr">&lt;h1 id=&quot;population-size-estimation-with-many-lists-and-heterogeneity-a-conditional-log-linear-model-among-the-unobserved&quot;&gt;Population Size Estimation with Many Lists and Heterogeneity: A Conditional Log-Linear Model Among the Unobserved&lt;/h1&gt;
 &lt;p&gt;
 
   
@@ -67,14 +557,9 @@ probabilities depending on high-dimensional or continuous covariates.&lt;/p&gt;
 &lt;br /&gt;
 
 &lt;!--
-&lt;span class=&quot;cv-description&quot;&gt;
-	
-&lt;/span&gt;
-&lt;br/&gt;
-
 --&gt;
 
-&lt;i&gt;arXiv:2407.03539 (under revision) (preprint).  2024.&lt;/i&gt;
+&lt;i&gt;arXiv:2407.03539 (under revision) (preprint,).  2024.&lt;/i&gt;
 
 &lt;br /&gt;
 
@@ -149,7 +634,7 @@ probabilities depending on high-dimensional or continuous covariates.&lt;/p&gt;
   primaryClass={stat.ME}
 }
 
-``` --&gt;</content><author><name>Mateo Dulce Rubio</name><email>mdulceru@andrew.cmu.edu</email></author><summary type="html">Population Size Estimation with Many Lists and Heterogeneity: A Conditional Log-Linear Model Among the Unobserved Mateo Dulce Rubio, Edward H. Kennedy Estimated number of casualties in the Peruvian internal conflict for different identification strategies vs. positivity lower bound on the estimated q-probabilities. Abstract We contribute a general and flexible framework to estimate the size of a closed population in the presence of K capture-recapture lists and heterogeneous capture probabilities. Our novel identifying strategy leverages the fact that it is sufficient for identification that a subset of the K lists are not arbitrarily dependent within the subset of the population unobserved by the remaining lists, conditional on covariates. This identification approach is interpretable and actionable, interpolating between the two predominant approaches in the literature as special cases: (conditional) independence across lists and log-linear models with no highest-order interaction. We derive nonparametric doubly-robust estimators for the resulting identification expression that are nearly optimal and approximately normal for any finite sample size, even when the heterogeneous capture probabilities are estimated nonparametrically using machine learning methods. Additionally, we devise a sensitivity analysis to show how deviations from the identification assumptions affect the resulting population size estimates, allowing for the integration of domain-specific knowledge into the identification and estimation processes more transparently. We empirically demonstrate the advantages of our method using both synthetic data and real data from the Peruvian internal armed conflict to estimate the number of casualties. The proposed methodology addresses recent critiques of capture-recapture models by allowing for a weaker and more interpretable identifying assumption and accommodating complex heterogeneous capture probabilities depending on high-dimensional or continuous covariates. Reference Population Size Estimation with Many Lists and Heterogeneity: A Conditional Log-Linear Model Among the Unobserved Mateo Dulce Rubio, Edward H. Kennedy arXiv:2407.03539 (under revision) (preprint). 2024. PDF</summary></entry><entry><title type="html">Reland</title><link href="http://localhost:4000/papers/reland" rel="alternate" type="text/html" title="Reland" /><published>2023-10-22T00:00:00-04:00</published><updated>2023-10-22T00:00:00-04:00</updated><id>http://localhost:4000/papers/reland</id><content type="html" xml:base="http://localhost:4000/papers/reland">&lt;h1 id=&quot;reland-risk-estimation-of-landmines-via-interpretable-invariant-risk-minimization&quot;&gt;RELand: Risk Estimation of Landmines via Interpretable Invariant Risk Minimization&lt;/h1&gt;
+``` --&gt;</content><author><name>Mateo Dulce Rubio</name><email>mdulceru@andrew.cmu.edu</email></author><summary type="html">Population Size Estimation with Many Lists and Heterogeneity: A Conditional Log-Linear Model Among the Unobserved Mateo Dulce Rubio, Edward H. Kennedy Estimated number of casualties in the Peruvian internal conflict for different identification strategies vs. positivity lower bound on the estimated q-probabilities. Abstract We contribute a general and flexible framework to estimate the size of a closed population in the presence of K capture-recapture lists and heterogeneous capture probabilities. Our novel identifying strategy leverages the fact that it is sufficient for identification that a subset of the K lists are not arbitrarily dependent within the subset of the population unobserved by the remaining lists, conditional on covariates. This identification approach is interpretable and actionable, interpolating between the two predominant approaches in the literature as special cases: (conditional) independence across lists and log-linear models with no highest-order interaction. We derive nonparametric doubly-robust estimators for the resulting identification expression that are nearly optimal and approximately normal for any finite sample size, even when the heterogeneous capture probabilities are estimated nonparametrically using machine learning methods. Additionally, we devise a sensitivity analysis to show how deviations from the identification assumptions affect the resulting population size estimates, allowing for the integration of domain-specific knowledge into the identification and estimation processes more transparently. We empirically demonstrate the advantages of our method using both synthetic data and real data from the Peruvian internal armed conflict to estimate the number of casualties. The proposed methodology addresses recent critiques of capture-recapture models by allowing for a weaker and more interpretable identifying assumption and accommodating complex heterogeneous capture probabilities depending on high-dimensional or continuous covariates. Reference Population Size Estimation with Many Lists and Heterogeneity: A Conditional Log-Linear Model Among the Unobserved Mateo Dulce Rubio, Edward H. Kennedy arXiv:2407.03539 (under revision) (preprint,). 2024. PDF</summary></entry><entry><title type="html">Reland</title><link href="http://localhost:4000/papers/reland" rel="alternate" type="text/html" title="Reland" /><published>2023-10-22T00:00:00-04:00</published><updated>2023-10-22T00:00:00-04:00</updated><id>http://localhost:4000/papers/reland</id><content type="html" xml:base="http://localhost:4000/papers/reland">&lt;h1 id=&quot;reland-risk-estimation-of-landmines-via-interpretable-invariant-risk-minimization&quot;&gt;RELand: Risk Estimation of Landmines via Interpretable Invariant Risk Minimization&lt;/h1&gt;
 &lt;p&gt;
 
   
@@ -258,14 +743,9 @@ Qi Wang,
 &lt;br /&gt;
 
 &lt;!--
-&lt;span class=&quot;cv-description&quot;&gt;
-	ML system to support humanitarian demining, currently being tested in Colombia.
-&lt;/span&gt;
-&lt;br/&gt;
-
 --&gt;
 
-&lt;i&gt;ACM Journal on Computing and Sustainable Societies 2 (2) (ACM JCSS).  2024.&lt;/i&gt;
+&lt;i&gt;ACM Journal on Computing and Sustainable Societies 2 (2) (ACM JCSS,).  2024.&lt;/i&gt;
 
 &lt;br /&gt;
 
@@ -333,7 +813,172 @@ Qi Wang,
 ```
 
 
-``` --&gt;</content><author><name>Mateo Dulce Rubio</name><email>mdulceru@andrew.cmu.edu</email></author><summary type="html">RELand: Risk Estimation of Landmines via Interpretable Invariant Risk Minimization Mateo Dulce Rubio*, Siqi Zeng*, Qi Wang, Didier Alvarado (UNMAS), Francisco Moreno (CCCM), Hoda Heidari, Fei Fang Integration of RELand system into the humanitarian demining pipeline. Current non-technical surveys (grey) are based on the visual inspection of data in geospatial information systems and human expert analyses including local community surveys and domain knowledge. RELand (yellow dashed box) serves as an additional toolbox that contains three major components: dataset enhancement based on existing public geospatial datasets (red), risk modeling with machine learning methods (blue), and interactive web interface (green). Abstract Landmines remain a threat to war-affected communities for years after conflicts have ended, partly due to the laborious nature of demining tasks. Humanitarian demining operations begin by collecting relevant information from the sites to be cleared, which is then analyzed by human experts to determine the potential risk of remaining landmines. In this paper, we propose RELand system to support these tasks, which consists of three major components. We (1) provide general feature engineering and label assigning guidelines to enhance datasets for landmine risk modeling, which are widely applicable to global demining routines, (2) formulate landmine presence as a classification problem and design a novel interpretable model based on sparse feature masking and invariant risk minimization, and run extensive evaluation under proper protocols that resemble real-world demining operations to show a significant improvement over the state-of-the-art, and (3) build an interactive web interface to suggest priority areas for demining organizations. We are currently collaborating with a humanitarian demining NGO in Colombia that is using our system as part of their field operations in two areas recently prioritized for demining. Reference RELand: Risk Estimation of Landmines via Interpretable Invariant Risk Minimization Mateo Dulce Rubio*, Siqi Zeng*, Qi Wang, Didier Alvarado (UNMAS), Francisco Moreno (CCCM), Hoda Heidari, Fei Fang ACM Journal on Computing and Sustainable Societies 2 (2) (ACM JCSS). 2024. PDF Presentación en español * Authors contributed equally</summary></entry><entry><title type="html">Rexperiments</title><link href="http://localhost:4000/papers/rexperiments" rel="alternate" type="text/html" title="Rexperiments" /><published>2023-10-22T00:00:00-04:00</published><updated>2023-10-22T00:00:00-04:00</updated><id>http://localhost:4000/papers/rexperiments</id><content type="html" xml:base="http://localhost:4000/papers/rexperiments">&lt;h1 id=&quot;randomized-experiments&quot;&gt;Randomized Experiments&lt;/h1&gt;
+``` --&gt;</content><author><name>Mateo Dulce Rubio</name><email>mdulceru@andrew.cmu.edu</email></author><summary type="html">RELand: Risk Estimation of Landmines via Interpretable Invariant Risk Minimization Mateo Dulce Rubio*, Siqi Zeng*, Qi Wang, Didier Alvarado (UNMAS), Francisco Moreno (CCCM), Hoda Heidari, Fei Fang Integration of RELand system into the humanitarian demining pipeline. Current non-technical surveys (grey) are based on the visual inspection of data in geospatial information systems and human expert analyses including local community surveys and domain knowledge. RELand (yellow dashed box) serves as an additional toolbox that contains three major components: dataset enhancement based on existing public geospatial datasets (red), risk modeling with machine learning methods (blue), and interactive web interface (green). Abstract Landmines remain a threat to war-affected communities for years after conflicts have ended, partly due to the laborious nature of demining tasks. Humanitarian demining operations begin by collecting relevant information from the sites to be cleared, which is then analyzed by human experts to determine the potential risk of remaining landmines. In this paper, we propose RELand system to support these tasks, which consists of three major components. We (1) provide general feature engineering and label assigning guidelines to enhance datasets for landmine risk modeling, which are widely applicable to global demining routines, (2) formulate landmine presence as a classification problem and design a novel interpretable model based on sparse feature masking and invariant risk minimization, and run extensive evaluation under proper protocols that resemble real-world demining operations to show a significant improvement over the state-of-the-art, and (3) build an interactive web interface to suggest priority areas for demining organizations. We are currently collaborating with a humanitarian demining NGO in Colombia that is using our system as part of their field operations in two areas recently prioritized for demining. Reference RELand: Risk Estimation of Landmines via Interpretable Invariant Risk Minimization Mateo Dulce Rubio*, Siqi Zeng*, Qi Wang, Didier Alvarado (UNMAS), Francisco Moreno (CCCM), Hoda Heidari, Fei Fang ACM Journal on Computing and Sustainable Societies 2 (2) (ACM JCSS,). 2024. PDF Presentación en español * Authors contributed equally</summary></entry><entry><title type="html">Victimization</title><link href="http://localhost:4000/papers/victimization" rel="alternate" type="text/html" title="Victimization" /><published>2023-10-22T00:00:00-04:00</published><updated>2023-10-22T00:00:00-04:00</updated><id>http://localhost:4000/papers/victimization</id><content type="html" xml:base="http://localhost:4000/papers/victimization">&lt;h1 id=&quot;effects-of-adolescent-victimization-on-offending-flexible-methods-for-missing-data--unmeasured-confounding&quot;&gt;Effects of Adolescent Victimization on Offending: Flexible Methods for Missing Data &amp;amp; Unmeasured Confounding&lt;/h1&gt;
+&lt;p&gt;
+
+  
+    
+&lt;a href=&quot;http://mdulcer.github.io&quot;&gt;Mateo Dulce Rubio&lt;/a&gt;,
+  
+
+  
+    
+&lt;a href=&quot;https://www.ehkennedy.com/&quot;&gt;Edward H. Kennedy&lt;/a&gt;,
+  
+
+  
+    
+Valerio Baćak,
+  
+
+  
+    
+&lt;a href=&quot;https://www.heinz.cmu.edu/faculty-research/profiles/nagin-daniel&quot;&gt;Daniel S. Nagin&lt;/a&gt;
+  
+
+&lt;/p&gt;
+
+&lt;figure&gt;
+    &lt;img class=&quot;single&quot; src=&quot;/images/papers/heterogeneous_all.png&quot; /&gt;
+    &lt;figcaption class=&quot;single&quot;&gt;
+      Heterogeneous ATT of victimization on future offending by age at the victimizing event using doubly robust estimators.
+
+
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;The causal link between victimization and violence later in life is largely
+accepted but has been understudied for victimized adolescents. In this work
+we use the Add Health dataset, the largest nationally representative longitudinal survey of adolescents, to estimate the relationship between victimization and future offending in this population. To accomplish this, we derive a
+new doubly robust estimator for the average treatment effect on the treated
+(ATT) when the treatment and outcome are not always observed. We then
+find that the offending rate among victimized individuals would have been
+3.86 percentage points lower if none of them had been victimized (95% CI:
+[0.28, 7.45]). This contributes positive evidence of a causal effect of victimization on future offending among adolescents. We further present statistical
+evidence of heterogeneous effects by age, under which the ATT decreases
+according to the age at which victimization is experienced. We then devise
+a novel risk-ratio-based sensitivity analysis and conclude that our results are
+robust to modest unmeasured confounding. Finally, we show that the found
+effect is mainly driven by non-violent offending.&lt;/p&gt;
+
+&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
+&lt;p&gt;
+
+	&lt;strong&gt;Effects of Adolescent Victimization on Offending: Flexible Methods for Missing Data &amp;amp; Unmeasured Confounding&lt;/strong&gt;
+
+
+&lt;br /&gt;
+
+
+	
+		
+&lt;a href=&quot;http://mdulcer.github.io&quot;&gt;Mateo Dulce Rubio&lt;/a&gt;,
+	
+
+	
+		
+&lt;a href=&quot;https://www.ehkennedy.com/&quot;&gt;Edward H. Kennedy&lt;/a&gt;,
+	
+
+	
+		
+Valerio Baćak,
+	
+
+	
+		
+&lt;a href=&quot;https://www.heinz.cmu.edu/faculty-research/profiles/nagin-daniel&quot;&gt;Daniel S. Nagin&lt;/a&gt;
+	
+
+
+&lt;br /&gt;
+
+&lt;!--
+--&gt;
+
+&lt;i&gt;The Annals of Applied Statistics (The Annals of Applied Statistics,).  2025.&lt;/i&gt;
+
+&lt;br /&gt;
+
+
+	&lt;span class=&quot;pub-misc&quot;&gt;
+
+	
+
+	&lt;!--
+	  &lt;a href=&quot;/papers/victimization&quot;&gt;
+	    &lt;i class=&quot;fas fa-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Project
+	  &lt;/a&gt;
+	--&gt;
+
+	
+
+	
+	  &lt;a href=&quot;https://arxiv.org/pdf/2309.12595.pdf&quot;&gt;
+	    &lt;i class=&quot;far fa-file-pdf&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; PDF
+	  &lt;/a&gt;
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+	&lt;a href=&quot;https://www.youtube.com/watch?v=6P81u2h30mA&quot;&gt;
+		&lt;i class=&quot;fas fa-video&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Presentación en español
+	&lt;/a&gt;
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		
+		
+	
+
+	
+
+	
+	
+	&lt;/span&gt;
+
+
+
+
+
+
+
+&lt;/p&gt;
+
+&lt;!-- ## BibTeX
+```
+@article{dulce2025effects,
+  title={Effects of adolescent victimization on offending: Flexible methods for missing data and unmeasured confounding},
+  author={Dulce Rubio, Mateo and Kennedy, Edward H and Ba{\&apos;c}ak, Valerio and Nagin, Daniel S},
+  journal={The Annals of Applied Statistics},
+  volume={19},
+  number={2},
+  pages={889--906},
+  year={2025},
+  publisher={Institute of Mathematical Statistics}
+  }
+
+``` --&gt;</content><author><name>Mateo Dulce Rubio</name><email>mdulceru@andrew.cmu.edu</email></author><summary type="html">Effects of Adolescent Victimization on Offending: Flexible Methods for Missing Data &amp;amp; Unmeasured Confounding Mateo Dulce Rubio, Edward H. Kennedy, Valerio Baćak, Daniel S. Nagin Heterogeneous ATT of victimization on future offending by age at the victimizing event using doubly robust estimators. Abstract The causal link between victimization and violence later in life is largely accepted but has been understudied for victimized adolescents. In this work we use the Add Health dataset, the largest nationally representative longitudinal survey of adolescents, to estimate the relationship between victimization and future offending in this population. To accomplish this, we derive a new doubly robust estimator for the average treatment effect on the treated (ATT) when the treatment and outcome are not always observed. We then find that the offending rate among victimized individuals would have been 3.86 percentage points lower if none of them had been victimized (95% CI: [0.28, 7.45]). This contributes positive evidence of a causal effect of victimization on future offending among adolescents. We further present statistical evidence of heterogeneous effects by age, under which the ATT decreases according to the age at which victimization is experienced. We then devise a novel risk-ratio-based sensitivity analysis and conclude that our results are robust to modest unmeasured confounding. Finally, we show that the found effect is mainly driven by non-violent offending. Reference Effects of Adolescent Victimization on Offending: Flexible Methods for Missing Data &amp;amp; Unmeasured Confounding Mateo Dulce Rubio, Edward H. Kennedy, Valerio Baćak, Daniel S. Nagin The Annals of Applied Statistics (The Annals of Applied Statistics,). 2025. PDF Presentación en español</summary></entry><entry><title type="html">Rexperiments</title><link href="http://localhost:4000/papers/rexperiments" rel="alternate" type="text/html" title="Rexperiments" /><published>2023-10-22T00:00:00-04:00</published><updated>2023-10-22T00:00:00-04:00</updated><id>http://localhost:4000/papers/rexperiments</id><content type="html" xml:base="http://localhost:4000/papers/rexperiments">&lt;h1 id=&quot;randomized-experiments&quot;&gt;Randomized Experiments&lt;/h1&gt;
 &lt;p&gt;
 
   
@@ -404,7 +1049,7 @@ More details and exposition can be found in Hernán and Robins [2010], Imbens an
 
 --&gt;
 
-&lt;i&gt;AI for Social Impact Book (AI4SI Book).  2022.&lt;/i&gt;
+&lt;i&gt;AI for Social Impact Book (AI4SI Book,).  2022.&lt;/i&gt;
 
 &lt;br /&gt;
 
@@ -466,172 +1111,4 @@ More details and exposition can be found in Hernán and Robins [2010], Imbens an
 ```
 
 
-``` --&gt;</content><author><name>Mateo Dulce Rubio</name><email>mdulceru@andrew.cmu.edu</email></author><summary type="html">Randomized Experiments Amanda Coston, Mateo Dulce Rubio, Edward H. Kennedy AI for Social Impact Book. Edited by Milind Tambe, Fei Fang &amp;amp; Bryan Wilder. https://ai4sibook.org/ Abstract Once deployed in the real world, even the most carefully designed artificial intelligence (AI) systems may fail to achieve their intended goals or may have adverse unintended consequences. How should researchers assess whether the AI actually improved outcomes? Randomized experiments are the gold standard for evaluation. They enable one to isolate the effect of the AI from other potentially confounding factors. Examples of AI systems for social impact that have been deployed and evaluated in the real world abound: Wang et al. [2019] studies the effect on the adenoma detection rate of using real-time AI-assisted colonoscopies, Mohler et al. [2015] evaluates the effect of using a predictive policing model on crime rates in Los Angeles, Mate et al. [2021] assesses the effect on dropout of using a model to prioritize the follow-up of participants in a maternal and child care information program, etc. In this chapter we give an introduction and review of randomized experiments. More details and exposition can be found in Hernán and Robins [2010], Imbens and Rubin [2015], Rosenbaum [2002], Tsiatis [2006], van der Laan and Robins [2003], for example, among many others. Reference Randomized Experiments Amanda Coston, Mateo Dulce Rubio, Edward H. Kennedy AI for Social Impact Book (AI4SI Book). 2022. PDF</summary></entry><entry><title type="html">Victimization</title><link href="http://localhost:4000/papers/victimization" rel="alternate" type="text/html" title="Victimization" /><published>2023-10-22T00:00:00-04:00</published><updated>2023-10-22T00:00:00-04:00</updated><id>http://localhost:4000/papers/victimization</id><content type="html" xml:base="http://localhost:4000/papers/victimization">&lt;h1 id=&quot;effects-of-adolescent-victimization-on-offending-flexible-methods-for-missing-data--unmeasured-confounding&quot;&gt;Effects of Adolescent Victimization on Offending: Flexible Methods for Missing Data &amp;amp; Unmeasured Confounding&lt;/h1&gt;
-&lt;p&gt;
-
-  
-    
-&lt;a href=&quot;http://mdulcer.github.io&quot;&gt;Mateo Dulce Rubio&lt;/a&gt;,
-  
-
-  
-    
-&lt;a href=&quot;https://www.ehkennedy.com/&quot;&gt;Edward H. Kennedy&lt;/a&gt;,
-  
-
-  
-    
-&lt;a href=&quot;https://rscj.newark.rutgers.edu/people/faculty/dr-valerio-bacak/&quot;&gt;Valerio Baćak (Rutgers)&lt;/a&gt;,
-  
-
-  
-    
-&lt;a href=&quot;https://www.heinz.cmu.edu/faculty-research/profiles/nagin-daniel&quot;&gt;Daniel S. Nagin&lt;/a&gt;
-  
-
-&lt;/p&gt;
-
-&lt;figure&gt;
-    &lt;img class=&quot;single&quot; src=&quot;/images/papers/heterogeneous_all.png&quot; /&gt;
-    &lt;figcaption class=&quot;single&quot;&gt;
-      Heterogeneous ATT of victimization on future offending by age at the victimizing event using doubly robust estimators.
-
-
-    &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2 id=&quot;abstract&quot;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;The causal link between victimization and violence later in life is largely
-accepted but has been understudied for victimized adolescents. In this work
-we use the Add Health dataset, the largest nationally representative longitudinal survey of adolescents, to estimate the relationship between victimization and future offending in this population. To accomplish this, we derive a
-new doubly robust estimator for the average treatment effect on the treated
-(ATT) when the treatment and outcome are not always observed. We then
-find that the offending rate among victimized individuals would have been
-3.86 percentage points lower if none of them had been victimized (95% CI:
-[0.28, 7.45]). This contributes positive evidence of a causal effect of victimization on future offending among adolescents. We further present statistical
-evidence of heterogeneous effects by age, under which the ATT decreases
-according to the age at which victimization is experienced. We then devise
-a novel risk-ratio-based sensitivity analysis and conclude that our results are
-robust to modest unmeasured confounding. Finally, we show that the found
-effect is mainly driven by non-violent offending.&lt;/p&gt;
-
-&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
-&lt;p&gt;
-
-	&lt;strong&gt;Effects of Adolescent Victimization on Offending: Flexible Methods for Missing Data &amp;amp; Unmeasured Confounding&lt;/strong&gt;
-
-
-&lt;br /&gt;
-
-
-	
-		
-&lt;a href=&quot;http://mdulcer.github.io&quot;&gt;Mateo Dulce Rubio&lt;/a&gt;,
-	
-
-	
-		
-&lt;a href=&quot;https://www.ehkennedy.com/&quot;&gt;Edward H. Kennedy&lt;/a&gt;,
-	
-
-	
-		
-&lt;a href=&quot;https://rscj.newark.rutgers.edu/people/faculty/dr-valerio-bacak/&quot;&gt;Valerio Baćak (Rutgers)&lt;/a&gt;,
-	
-
-	
-		
-&lt;a href=&quot;https://www.heinz.cmu.edu/faculty-research/profiles/nagin-daniel&quot;&gt;Daniel S. Nagin&lt;/a&gt;
-	
-
-
-&lt;br /&gt;
-
-&lt;!--
-&lt;span class=&quot;cv-description&quot;&gt;
-	
-&lt;/span&gt;
-&lt;br/&gt;
-
---&gt;
-
-&lt;i&gt;arXiv:2309.12595 (under revision) (preprint).  2023.&lt;/i&gt;
-
-&lt;br /&gt;
-
-
-	&lt;span class=&quot;pub-misc&quot;&gt;
-
-	
-
-	&lt;!--
-	  &lt;a href=&quot;/papers/victimization&quot;&gt;
-	    &lt;i class=&quot;fas fa-link&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Project
-	  &lt;/a&gt;
-	--&gt;
-
-	
-
-	
-	  &lt;a href=&quot;https://arxiv.org/pdf/2309.12595.pdf&quot;&gt;
-	    &lt;i class=&quot;far fa-file-pdf&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; PDF
-	  &lt;/a&gt;
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-	&lt;a href=&quot;https://www.youtube.com/watch?v=6P81u2h30mA&quot;&gt;
-		&lt;i class=&quot;fas fa-video&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt; Presentación en español
-	&lt;/a&gt;
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-		
-		
-	
-
-	
-
-	
-	
-	&lt;/span&gt;
-
-
-
-
-
-
-
-&lt;/p&gt;
-
-&lt;!-- ## BibTeX
-```
-@misc{dulce2023effects,
-  title={Effects of Adolescent Victimization on Offending: Flexible Methods for Missing Data &amp; Unmeasured Confounding}, 
-  author={Dulce Rubio, Mateo and Kennedy, Edward H. and Baćak, Valerio and Nagin, Daniel S.},
-  year={2023},
-  eprint={2309.12595},
-  archivePrefix={arXiv},
-  primaryClass={stat.ME}
-}
-
-``` --&gt;</content><author><name>Mateo Dulce Rubio</name><email>mdulceru@andrew.cmu.edu</email></author><summary type="html">Effects of Adolescent Victimization on Offending: Flexible Methods for Missing Data &amp;amp; Unmeasured Confounding Mateo Dulce Rubio, Edward H. Kennedy, Valerio Baćak (Rutgers), Daniel S. Nagin Heterogeneous ATT of victimization on future offending by age at the victimizing event using doubly robust estimators. Abstract The causal link between victimization and violence later in life is largely accepted but has been understudied for victimized adolescents. In this work we use the Add Health dataset, the largest nationally representative longitudinal survey of adolescents, to estimate the relationship between victimization and future offending in this population. To accomplish this, we derive a new doubly robust estimator for the average treatment effect on the treated (ATT) when the treatment and outcome are not always observed. We then find that the offending rate among victimized individuals would have been 3.86 percentage points lower if none of them had been victimized (95% CI: [0.28, 7.45]). This contributes positive evidence of a causal effect of victimization on future offending among adolescents. We further present statistical evidence of heterogeneous effects by age, under which the ATT decreases according to the age at which victimization is experienced. We then devise a novel risk-ratio-based sensitivity analysis and conclude that our results are robust to modest unmeasured confounding. Finally, we show that the found effect is mainly driven by non-violent offending. Reference Effects of Adolescent Victimization on Offending: Flexible Methods for Missing Data &amp;amp; Unmeasured Confounding Mateo Dulce Rubio, Edward H. Kennedy, Valerio Baćak (Rutgers), Daniel S. Nagin arXiv:2309.12595 (under revision) (preprint). 2023. PDF Presentación en español</summary></entry></feed>
+``` --&gt;</content><author><name>Mateo Dulce Rubio</name><email>mdulceru@andrew.cmu.edu</email></author><summary type="html">Randomized Experiments Amanda Coston, Mateo Dulce Rubio, Edward H. Kennedy AI for Social Impact Book. Edited by Milind Tambe, Fei Fang &amp;amp; Bryan Wilder. https://ai4sibook.org/ Abstract Once deployed in the real world, even the most carefully designed artificial intelligence (AI) systems may fail to achieve their intended goals or may have adverse unintended consequences. How should researchers assess whether the AI actually improved outcomes? Randomized experiments are the gold standard for evaluation. They enable one to isolate the effect of the AI from other potentially confounding factors. Examples of AI systems for social impact that have been deployed and evaluated in the real world abound: Wang et al. [2019] studies the effect on the adenoma detection rate of using real-time AI-assisted colonoscopies, Mohler et al. [2015] evaluates the effect of using a predictive policing model on crime rates in Los Angeles, Mate et al. [2021] assesses the effect on dropout of using a model to prioritize the follow-up of participants in a maternal and child care information program, etc. In this chapter we give an introduction and review of randomized experiments. More details and exposition can be found in Hernán and Robins [2010], Imbens and Rubin [2015], Rosenbaum [2002], Tsiatis [2006], van der Laan and Robins [2003], for example, among many others. Reference Randomized Experiments Amanda Coston, Mateo Dulce Rubio, Edward H. Kennedy AI for Social Impact Book (AI4SI Book,). 2022. PDF</summary></entry></feed>
