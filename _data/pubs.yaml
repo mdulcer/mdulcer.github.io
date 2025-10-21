@@ -94,6 +94,7 @@
   url: /papers/sesgo
   pdf: https://ojs.aaai.org/index.php/AIES/article/view/36707/38845
   image: /images/papers/cross-linguistic.png
+  presentacion: https://www.youtube.com/watch?v=yPfU-ZLwSRo
   featured: true
   feature-order: 3
   feature-title: "SESGO: Spanish Evaluation of Stereotypical Generative Outputs"
