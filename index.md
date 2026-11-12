@@ -15,22 +15,20 @@ table, th, td {
 			<h1 id="intro-title">Mateo Dulce Rubio</h1>
 	</div>	
 	<div class="intro-left">
-		<div class="intro-left">
-			¡Hola! I am an Assistant Professor & Faculty Fellow at the <a href="https://cds.nyu.edu/">NYU Center for Data Science</a>. I recently completed a PhD in Statistics and Public Policy at Carnegie Mellon University, advised by <a href="https://www.ehkennedy.com/">	Edward H. Kennedy</a>, where I received the William W. Cooper Doctoral Dissertation Award for my thesis “Robust Nonparametric Methods for Peacebuilding.” 
-		</div>
-		<div style="height: 1rem"></div>
-		<div class="intro-left">
-			My research develops flexible and robust statistical tools for humanitarian and policy applications, advancing methods from nonparametric statistics, causal inference, mathematical optimization, and responsible machine learning. Specifically, I focus on:
-			<ul style="padding-left: 19px">
-  				<li style="margin-bottom: 10px;">Localized decision-making and <strong>geographic resource allocation</strong> under low-quality data. I actively work on ML/OR-powered tools to support planning and prioritization in <a href="https://dl.acm.org/doi/10.1145/3648437">humanitarian mine action</a>, in partnership with <a href="https://www.unops.org/news-and-stories/news/ai-innovation-transforms-mine-action">UNOPS</a> and local demining organizations. My work has been deployed in real-world operations in Colombia and Afghanistan and recognized by INFORMS, GICHD, ITU, and Kluz PeaceTech.</li>
-  				<li style="margin-bottom: 10px;"><strong>Doubly-robust ML estimators</strong> for <a href="https://projecteuclid.org/journals/annals-of-applied-statistics/volume-19/issue-2/Effects-of-adolescent-victimization-on-offending--Flexible-methods-for/10.1214/24-AOAS2005.short">causal inference</a> under missing data, and for <a href="https://arxiv.org/abs/2407.03539">population size estimation</a> with heterogeneous capture probabilities and recapture dependencies, with applications in conservation, public health, and human rights.</li>
-  				<li><strong>Principled statistical methods for responsible AI systems</strong>. I develop general frameworks to address key challenges in algorithmic decision-support systems with theoretical guarantees, including <a href="https://dl.acm.org/doi/abs/10.5555/3692070.3692442">selection bias</a>, <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0294020">counterfactual allocation</a>, <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0287776">underreported events</a>, <a href="https://arxiv.org/abs/2509.07055">anytime-valid differential privacy auditing</a>, <a href="https://ojs.aaai.org/index.php/AIES/article/view/36707">culturally-aware bias assessment in LLMs</a>, and <a href="https://arxiv.org/abs/2506.03531">conformalized optimization with feasibility guarantees</a>.</li>
-			</ul>
-			Feel free to reach out if you want to discuss research or applications in these areas!
-		</div>
+	<div class="intro-left">
+		<p>¡Hola! I am an Assistant Professor &amp; Faculty Fellow at the <a href="https://cds.nyu.edu/">NYU Center for Data Science</a>. My research develops flexible and robust statistical tools that turn machine learning predictions of unknown quality into decisions with provable guarantees, together with the conditions a predictive model must satisfy for these guarantees to hold. This agenda combines methods from nonparametric statistics, causal inference, optimization, and machine learning, and is developed for humanitarian and policy applications in close partnership with organizations such as UNOPS and The HALO Trust. I'm broadly interested in:</p>
+		<ul style="padding-left: 19px">
+			<li style="margin-bottom: 10px;"><strong>Algorithmic decision-support systems for landmine clearance</strong>, motivated by operational and data challenges in <a href="https://dl.acm.org/doi/10.1145/3648437">humanitarian mine action</a>. These systems have been used in real-world operations in Colombia and Afghanistan, and have been recognized by INFORMS, GICHD, ITU, and Kluz PeaceTech.</li>
+			<li style="margin-bottom: 10px;"><strong>Doubly robust estimators from ML predictors</strong> for causal inference and population size estimation with heterogeneous capture probabilities and recapture dependencies, with applications in conservation, public health, and human rights.</li>
+			<li>Design and deployment of AI systems (e.g., tabular or language foundation models) for <strong>resource allocation under uncertainty</strong>, how to incorporate them into broader decision-making workflows with honest guarantees, and how to audit their behavior once deployed.</li>
+		</ul>
+		<p>I hold a PhD in Statistics and Public Policy from Carnegie Mellon University, where I Was advised by <a href="https://www.ehkennedy.com/">Edward H. Kennedy</a> and received the William W. Cooper Doctoral Dissertation Award for my thesis “Robust Nonparametric Methods for Peacebuilding.”</p>
+		<p><strong><i>I am on the 2026–2027 academic job market.</i></strong></p>
+		<p><i>* Dulce is my first (paternal) last name and Rubio is my second (maternal) last name.</i></p>
+	</div>
 	</div>
 	<div class="intro-right">
-		<div style="height: 2rem"></div>
+		<div style="height: 1rem"></div>
 		<img id="intro-image" class="intro-right" src="/images/MDR.jpg">
 		<div style="height: 0.5rem"></div>
 		<div id="intro-image-links" class="intro-right">
@@ -43,7 +41,6 @@ table, th, td {
 	</div>
 </div>
 <div class="l-middle">	
-	<i>* Dulce is my first (paternal) last name and Rubio is my second (maternal) last name.</i> 
 </div>
 
 
@@ -56,8 +53,32 @@ table, th, td {
 <div class="l-middle">
 	<table style="background-color:white">
 	<tr>
+		<td style="width:17%" > <b>October 2026</b> </td>
+		<td> Our paper <a href="https://arxiv.org/pdf/2605.22612"> "Healthcare LLM Benchmarks Are Only as Good as Their Explicit Assumptions" </a> was acepted at the NeruIPS 2026 Workshop on GenAI for Health. </td>
+	</tr>
+	<tr>
+		<td style="width:17%" > <b>September 2026</b> </td>
+		<td> Accepted paper at NeurIPS on <a href="https://arxiv.org/pdf/2605.07979"> The Limits of AI-Driven Allocation: Optimal Screening under Aleatoric Uncertainty! </a> </td> 
+	</tr>
+	<tr>
+		<td style="width:17%" > <b>September 2026</b> </td>
+		<td> Received funding from Minesight as PI for the project <i>"Statistical Foundations of Residual Risk and All Reasonable Effort in AI-Assisted Mine Action,"</i> in partnership with The HALO Trust. </td> 
+	</tr>
+	<tr>
+		<td style="width:17%" > <b>March 2026</b> </td>
+		<td> I'll be attending the AAAI Symposium on <a href="https://www.hadr.ai/home"> Artificial Intelligence for Humanitarian Assistance and Disaster Relief </a> to present our work on "Continuous Learning for AI-Informed Landmine Risk Assessment" and "Deploying AI-powered Landmine Risk Assessment in Afghanistan and Colombia." </td>
+	</tr>
+	<tr>
+		<td style="width:17%" > <b>February 2026</b> </td>
+		<td> New preprint: <a href="https://arxiv.org/pdf/2602.09911"> "Doubly Robust Machine Learning for Population Size Estimation with Missing Covariates: Application to Gaza Conflict Mortality."</a> </td>
+	</tr>
+	<tr>
 		<td style="width:17%" > <b>September 2025</b> </td>
-		<td> Two papers accepted at NeurIPS 2025! <a href="https://arxiv.org/pdf/2506.03531"> "Conformal Mixed-Integer Constraint Learning with Feasibility Guarantees"</a> (<b>spotlight!</b>) and <a href  = "https://arxiv.org/pdf/2509.07055"> "Sequentially Auditing Differential Privacy"</a>. </td>
+		<td> Awarded a Minesight Seedling Program grant to lead research on dynamic AI risk assessment of EO contamination. </td> 
+	</tr>
+	<tr>
+		<td style="width:17%" > <b>September 2025</b> </td>
+		<td> Two papers accepted at NeurIPS 2025! <a href="https://arxiv.org/pdf/2506.03531"> "Conformal Mixed-Integer Constraint Learning with Feasibility Guarantees"</a> (<b>spotlight!</b>) and <a href  = "https://arxiv.org/pdf/2509.07055"> "Sequentially Auditing Differential Privacy."</a> </td>
 	</tr>
 	<tr>
 		<td style="width:17%" > <b>September 2025</b> </td>
@@ -65,15 +86,7 @@ table, th, td {
 	</tr>
 	<tr>
 		<td style="width:17%" > <b>September 2025</b> </td>
-		<td> <b>Joined New York University as an Assistant Professor / Faculty Fellow at the Center for Data Science! </b> </td>
-	</tr>
-	<tr>
-		<td style="width:17%" > <b>May 2025</b> </td>
-		<td> Honored to receive the  <b>William W. Cooper Doctoral Dissertation Award</b> for my thesis "Robust Statistical Methods for Peacebuilding". </td>
-	</tr>
-	<tr>
-		<td style="width:17%" > <b>April 2025</b> </td>
-		<td> I was selected as <b>Student of the Year</b> by the American Statistical Association, Pittsburgh chapter. </td>
+		<td> Joined New York University as an Assistant Professor / Faculty Fellow at the Center for Data Science! </td>
 	</tr>
 	</table>
 </div>

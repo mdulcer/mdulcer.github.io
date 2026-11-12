@@ -1,3 +1,52 @@
+- id: screening
+  title: "The Limits of AI-Driven Allocation: Optimal Screening under Aleatoric Uncertainty"
+  authors:
+    - Santiago Cortés-Gómez*
+    - Mateo Dulce Rubio*
+    - Carlos Patiño
+    - Bryan Wilder
+  venue: Neural Information Processing Systems
+  venue-shorthand: NeurIPS
+  year: 2026
+  url: /papers/screening
+  pdf: https://arxiv.org/pdf/2605.07979
+  image: /images/papers/utility_gap.png
+  featured: true
+  feature-order: 1
+  feature-title: "The Limits of AI-Driven Allocation: Optimal Screening under Aleatoric Uncertainty"
+  caption: |
+     Utility gap between optimal screening at the prediction-only allocation margin and no screening, 
+     as a function of the Beta(t,t) concentration parameter t governing aleatoric uncertainty in the underlying risk distribution.
+  abstract: |
+    The rise of machine learning has shifted targeted resource allocation in policy
+    and humanitarian settings toward algorithmic targeting based on predicted risk
+    scores. This approach is typically cheaper and faster than traditional screening
+    procedures that directly observe the latent vulnerability status through physical
+    verification. Yet, even access to the true conditional vulnerability probability cannot
+    eliminate misallocation: aleatoric uncertainty over individual vulnerability status is
+    irreducible, and probabilistic targeting inevitably misallocates some resources. In
+    this work, we study how screening and algorithmic targeting should be optimally
+    combined in a two-stage allocation framework, in which a screening stage observes
+    true outcomes for a subset of units before a final allocation stage assigns the
+    resource under a fixed coverage budget. We show that the optimal strategy screens
+    units at the margin of algorithmic allocation, while directly targeting the highestrisk
+    units. We empirically characterize when screening and algorithmic targeting act
+    as complements or substitutes: efficiency gains from screening grow as the aleatoric
+    uncertainty in the population increases. Finally, we characterize the relative value of
+    screening and direct allocation, which yields a simple rule for splitting a program
+    budget between the two: the optimal cutoff depends only on their cost ratio.
+    We illustrate our framework with applications in income-based social protection
+    programs and humanitarian demining in Colombia, where the tension between
+    screening costs and allocation efficiency is operationally consequential.
+  bibtex: |-
+    @article{gonzalez2025sequentially,
+      title={Sequentially Auditing Differential Privacy},
+      author={Gonz{\'a}lez, Tom{\'a}s and Dulce Rubio, Mateo and Ramdas, Aaditya and Ribero, M{\'o}nica},
+      journal={Advances in Neural Information Processing Systems (NeurIPS), 2025.},
+      year={2025}
+    }
+
+
 - id: sequential-dp
   title: "Sequentially Auditing Differential Privacy"
   authors:
@@ -6,13 +55,13 @@
     - Aaditya Ramdas
     - Mónica Ribero
   venue: Neural Information Processing Systems
-  venue-shorthand: NeurIPS,
+  venue-shorthand: NeurIPS
   year: 2025
   url: /papers/sequential-dp
-  pdf: https://arxiv.org/pdf/2509.07055
+  pdf: https://proceedings.neurips.cc/paper_files/paper/2025/file/d41ddb5e702f647f6e92db1f8dbf86ec-Paper-Conference.pdf
   image: /images/papers/seq-dp-audit.png
   featured: true
-  feature-order: 1
+  feature-order: 3
   feature-title: "Sequentially Auditing Differential Privacy"
   caption: |
      We propose a new framework for approximate DP auditing using e-values, non-negative random variables that 
@@ -34,7 +83,7 @@
     @article{gonzalez2025sequentially,
       title={Sequentially Auditing Differential Privacy},
       author={Gonz{\'a}lez, Tom{\'a}s and Dulce Rubio, Mateo and Ramdas, Aaditya and Ribero, M{\'o}nica},
-      journal={Advances in Neural Information Processing Systems (NeurIPS), 2025. (Forthcoming)},
+      journal={Advances in Neural Information Processing Systems (NeurIPS), 2025.},
       year={2025}
     }
 
@@ -47,10 +96,10 @@
     - Carl D. Laird
     - Mateo Dulce Rubio
   venue: Neural Information Processing Systems
-  venue-shorthand: NeurIPS (spotlight!),
+  venue-shorthand: NeurIPS (spotlight!)
   year: 2025
   url: /papers/c-micl
-  pdf: https://arxiv.org/pdf/2506.03531
+  pdf: https://proceedings.neurips.cc/paper_files/paper/2025/file/73b0f567e5471e73261853dc962c92bf-Paper-Conference.pdf
   image: /images/papers/cmicl_coverage_90.png
   featured: true
   feature-order: 2
@@ -76,7 +125,7 @@
     @article{ovalle2025conformal,
       title={Conformal Mixed-Integer Constraint Learning with Feasibility Guarantees},
       author={Ovalle, Daniel and Biegler, Lorenz T and Grossmann, Ignacio E and Laird, Carl D and Dulce Rubio, Mateo},
-      journal={Advances in Neural Information Processing Systems (NeurIPS), 2025. (Forthcoming)},
+      journal={Advances in Neural Information Processing Systems (NeurIPS), 2025.},
       year={2025}
     }
 
@@ -89,14 +138,14 @@
     - Denniss Raigoso
     - Mateo Dulce Rubio
   venue: AAAI/ACM Conference on AI, Ethics, and Society
-  venue-shorthand: AIES (oral discussion),
+  venue-shorthand: AIES (oral discussion)
   year: 2025
   url: /papers/sesgo
   pdf: https://ojs.aaai.org/index.php/AIES/article/view/36707/38845
   image: /images/papers/cross-linguistic.png
   presentacion: https://www.youtube.com/watch?v=yPfU-ZLwSRo
   featured: true
-  feature-order: 3
+  feature-order: 4
   feature-title: "SESGO: Spanish Evaluation of Stereotypical Generative Outputs"
   caption: |
      Cross-linguistic comparison of bias scores in ambiguous prompts. Three out of six models show increased
@@ -137,18 +186,18 @@
     - Mateo Dulce Rubio
     - Edward H. Kennedy
   venue: arXiv:2407.03539 (under revision)
-  venue-shorthand: preprint,
+  venue-shorthand: preprint
   year: 2024
   type: preprint
   url: /papers/drcr
   pdf: https://arxiv.org/pdf/2407.03539
   image: /images/papers/drcr-peru.png
   featured: true
-  feature-order: 4
+  feature-order: 5
   feature-title: "Population Size Estimation with Many Lists and Heterogeneity: A Conditional Log-Linear Model Among the Unobserved"
   caption: |
-     Estimated number of casualties in the Peruvian internal conflict for different identification strategies vs. 
-     positivity lower bound on the estimated q-probabilities.
+    Estimated number of casualties in the Peruvian internal conflict, using a conditional log-linear among the unobserved population, 
+    versus the positivity lower bound on the ML-estimated q-probabilities.
   abstract: |
     We contribute a general and flexible framework to estimate the size of a closed population in the presence of 
     K capture-recapture lists and heterogeneous capture probabilities.
@@ -194,14 +243,14 @@
     - Siqi Zeng
   coming-soon: false
   venue: "ACM Journal on Computing and Sustainable Societies 2 (2)"
-  venue-shorthand: "ACM JCSS,"
+  venue-shorthand: ACM JCSS
   year: 2024
   url: /papers/reland
   pdf: https://arxiv.org/pdf/2311.03115.pdf
   image: /images/papers/23-reland-vis.png
   presentacion: https://www.youtube.com/live/cKINGMf4R2c?si=ERclLIqUps2K90-b
   featured: true
-  feature-order: 5
+  feature-order: 6
   feature-title: "RELand: Risk Estimation of Landmines via Interpretable Invariant Risk Minimization"
   caption: "Integration of RELand system into the humanitarian demining pipeline. Current non-technical surveys (grey)
     are based on the visual inspection of data in geospatial information systems and human expert analyses including local
@@ -229,14 +278,14 @@
     - Valerio Baćak
     - Daniel S. Nagin
   venue: The Annals of Applied Statistics
-  venue-shorthand: The Annals of Applied Statistics,
+  venue-shorthand: The Annals of Applied Statistics
   year: 2025
   url: /papers/victimization
   pdf: https://arxiv.org/pdf/2309.12595.pdf
   image: /images/papers/heterogeneous_all.png
   presentacion: https://www.youtube.com/watch?v=6P81u2h30mA
   featured: true
-  feature-order: 6
+  feature-order: 7
   feature-title: "Effects of Adolescent Victimization on Offending: Methods for Missing Data & Unmeasured Confounding"
   caption: |
     Heterogeneous ATT of victimization on future offending by age at the victimizing event using doubly robust estimators.
@@ -279,7 +328,7 @@
   url: /papers/rexperiments
   pdf: https://ai4sibook.org/wp-content/uploads/2022/08/randomized-experiments.pdf
   image: /images/papers/ai4si.png
-  featured: true
+  featured: false
   feature-order: 7
   feature-title: "Randomized Experiments (Book chapter)"
   summary: "AI for Social Impact Book. Edited by Milind Tambe, Fei Fang & Bryan Wilder. <a href='https://ai4sibook.org/'> https://ai4sibook.org/ </a>"
